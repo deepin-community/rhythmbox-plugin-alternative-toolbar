@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2019 David Mohammed <fossfreedom@ubuntu.com> -->
+<component type="addon">
+  <id>org.gnome.rhythmbox.alternative-toolbar.addon</id>
+  <extends>rhythmbox.desktop</extends>
+  <name>Alternative Toolbar</name>
+  <summary>Enhanced play controls and interface</summary>
+  <description>
+      <p>
+      Replace the current standard toolbar with either a compact toolbar
+      or with the new Gnome-style client-side decoration.
+      </p>
+  </description>
+  <url type="homepage">https://github.com/fossfreedom/alternative-toolbar</url>
+  <url type="bugtracker">https://github.com/fossfreedom/alternative-toolbar/issues</url>
+  <url type="translate">https://translations.launchpad.net/alternative-toolbar</url>
+  <metadata_license>GPL-3+</metadata_license>
+  <project_license>GPL-3+</project_license>
+  <screenshots>
+	<screenshot type="default">
+		<image>http://pix.toile-libre.org/upload/original/1518387161.png</image>
+	</screenshot>
+  </screenshots>
+  <update_contact>David Mohammed fossfreedom@ubuntu.com</update_contact>
+  <translation type="gettext">Rhythmbox Plugin Alternative Toolbar</translation>
+</component>

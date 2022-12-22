@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <metadata>
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <dc:title/>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <rect y="3" width="9" height="1" fill="#bebebe"/>
+  <rect y="1" width="9" height="1" fill="#bebebe"/>
+  <path d="m8 15c-1-0.33553-1.2655-0.56465-1.5555-1.2609-0.18649-0.6648 0.057524-1.3786 0.47603-1.9036 0.77658-0.97196 1.8566-1.4702 3.0795-1.2404 0.0099-3.2535-0.005961-6.3416 0-9.5951 0.2949 0.43474 0.87088 0.69429 1.2689 1.0414 0.846 0.76699 1.8986 1.2543 2.7684 1.9902 0.7498 0.63842 1.4008 1.4302 1.733 2.3678 0.24365 0.67046 0.29324 1.4067 0.15142 2.1053-0.1868 0.89622-0.73659 1.401-1.329 2.0927 0.20167-0.83476 0.43176-1.3975 0.1739-2.2352-0.17155-0.58086-0.54814-1.085-1.0169-1.4615-0.5359-0.43276-1.1193-0.63282-1.7497-0.90061-0.0083 2.1496 0.0026 4.2007 0 6.3506 0.03306 0.74216-0.39351 1.4523-0.9357 1.94-0.83043 0.75112-1.972 0.99013-3.0643 0.70945" fill="#bebebe"/>
+  <rect y="5" width="9" height="1" fill="#bebebe"/>
+  <rect y="9" width="9" height="1" fill="#bebebe"/>
+  <rect y="7" width="9" height="1" fill="#bebebe"/>
+  <rect y="11" width="5" height="1" fill="#bebebe"/>
+  <rect y="13" width="5" height="1" fill="#bebebe"/>
+</svg>

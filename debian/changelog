@@ -1,0 +1,231 @@
+rhythmbox-plugin-alternative-toolbar (0.20.1-1) unstable; urgency=medium
+
+  * New upstream version
+    - See ChangeLog
+  * Packaging Changes
+    - drop all patches
+    - d/c bump StandardsVersion
+    - d/upstream use my debian maintainer signing key
+    - d/c update debhelper version
+    - d/copyright bump copyright year
+    - metadata/upstream remove Homepage which resolved lintian warning
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 19 Sep 2021 18:41:47 +0100
+
+rhythmbox-plugin-alternative-toolbar (0.19.3-2) unstable; urgency=medium
+
+  * Bug-fix release
+    - 0001-No-longer-explicitly-hide-the-Import-button-Closes-1.patch
+      Don't try to hide the Import button which is no longer accessible
+      by other means in rhythmbox v3.4.4 (LP: #1893113)
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 26 Aug 2020 20:06:17 +0100
+
+rhythmbox-plugin-alternative-toolbar (0.19.3-1) unstable; urgency=medium
+
+  * New release
+    See ChangeLog
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 23 Mar 2020 21:58:16 +0000
+
+rhythmbox-plugin-alternative-toolbar (0.19.2-1) unstable; urgency=medium
+
+  * New release
+    See ChangeLog
+  * Packaging Changes
+    control: update policy version
+    remove unneeded compat
+    control: BD debhelper-compat
+    remove unneeded source/include-binaries
+    copyright: update copyright year
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 27 Jan 2020 20:16:40 +0000
+
+rhythmbox-plugin-alternative-toolbar (0.19.1-1) unstable; urgency=medium
+
+  * New release
+    See ChangeLog
+  * Packaging Changes
+    control: remove gir1.2-keybinder-3.0 since this is now an optional
+    install
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 28 Oct 2019 21:36:44 +0000
+
+rhythmbox-plugin-alternative-toolbar (0.19.0-2) unstable; urgency=medium
+
+  * Bug-fix
+    - add runtime depends on gir1.2-keybinder-3.0 (Closes: #942490)
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 17 Oct 2019 10:10:35 +0100
+
+rhythmbox-plugin-alternative-toolbar (0.19.0-1) unstable; urgency=medium
+
+  * New release
+    See ChangeLog
+  * Packaging Changes
+    control: bump StandardsVersion no changes required
+    control: Add gir1.2-keybinder-3.0 as a build-dependency
+    control: debhelper & compat v12
+    watch: look for signed tarball on github assets
+    rules: Remove autogen.sh build since now using preprepared release
+     tarball
+    drop existing patches since incorporated in the new release
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 16 Oct 2019 22:57:18 +0100
+
+rhythmbox-plugin-alternative-toolbar (0.18.4-1) unstable; urgency=medium
+
+  * Translation release
+    - Latest translations from disco branch of Launchpad
+    - metainfo file renamed since too long (>99 chars)
+  * Packaging Changes
+    - add patch metainfo-license.patch to correct
+      copyright type
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 05 Mar 2019 18:59:09 +0000
+
+rhythmbox-plugin-alternative-toolbar (0.18.3-1) unstable; urgency=medium
+
+  * Bug fix release
+    - Fix crash with german locale (LP: #1812683)
+    - Latest turkish translation
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 03 Feb 2019 23:17:14 +0000
+
+rhythmbox-plugin-alternative-toolbar (0.18.2-1) unstable; urgency=medium
+
+  * Bug fix release
+    - Rhythmbox v3.4.3 compatibility
+    - Remove appmenu as per new GNOME HIG guidelines
+    - Revert to stock sidebar as the default
+  * Packaging Changes:
+    - control: Bump Standards-Version - no changes required
+    - control: Corrected VCS-Browser location
+    - copyright: year changes
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 10 Jan 2019 09:52:43 +0000
+
+rhythmbox-plugin-alternative-toolbar (0.18.1-1) unstable; urgency=medium
+
+  * Bug fix and Translation release
+    - Use precise repeat one code rather than the previous estimate method
+    - Fix laggy volume slider
+    - Fix buggy click-to-seek
+    - Use default GNOME Headerbar spacing
+  * Packaging Changes:
+    - control: Bump Standards-Version - rules updated for verbose build
+    - copyright: Refresh to capture revised copyright holders
+    - rules: Removed unnecessary --parallel
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 17 Sep 2018 20:47:40 +0100
+
+rhythmbox-plugin-alternative-toolbar (0.18.0-1) unstable; urgency=medium
+
+  * New upstream release
+    - Latest Translations
+    - Headerbar button to toggle a source toolbar (LP: #1733438)
+    - Fixes for crashes with a german locale
+    - Add appdata metadata (LP: #1725457)
+    - Fix for crash when connecting and selecting a blank error source
+      when connecting a phone (LP: #1723129)
+    - More logical help and about icons in the plugin window
+    - Translate Category heading
+    - Translate repeat button tooltip
+  * Packaging Changes:
+    - debian/{control/compat} - bump debhelper version to v11
+    - debian/copyright - 2018 year change
+    - debian/control - bump Standards-Version to 4.1.3 (no changes required)
+    - debian/copyright - Add GPL-2+ copyright for debian/* files
+    - debian/copyright - Fix year issues from running
+      check-all-the-things
+    - debian/upstream/metadata - fix warnings and errors from running
+      check-all-the-things
+    - debian/upstream - move and rename signing-key
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 11 Feb 2018 20:26:47 +0000
+
+rhythmbox-plugin-alternative-toolbar (0.17.5-1) unstable; urgency=medium
+
+  * New upstream release
+    - latest translations
+    - display hamburger menu by default for modern toolbar
+    - fix display of blank source names in the sidebar
+    - fix display of column names in french locale
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 13 Sep 2017 21:17:00 +0100
+
+rhythmbox-plugin-alternative-toolbar (0.17.4-1) unstable; urgency=medium
+
+  * New upstream release
+    - latest translations
+    - show source toolbar for radio and podcasts
+    - allow playqueue reordering of songs
+    - fix display of header category labels
+    - cope with environments that don't set XDG_CURRENT_DESKTOP
+  * Packaging Changes.
+    - debian/control standards-version changed to 4.0.0
+      debhelper changed to 10 and removed the now unnecessary
+      dh_autoreconf build dependency
+    - debian/copyright - extend copyright year
+    - reworked debian/rules so that postrm and prerm files are no
+      longer required
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 9 Aug 2017 21:21:25 +0100
+
+rhythmbox-plugin-alternative-toolbar (0.17.3-1) unstable; urgency=medium
+
+  * New upstream release.
+    - latest zh_CN translation
+  * Packaging Changes.
+    - debian/prerm and debian/postrm are shell scripts so start
+      with #!/bin/sh (Closes: #843278)
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 05 Nov 2016 20:05:33 +0100
+
+rhythmbox-plugin-alternative-toolbar (0.17.2-1) unstable; urgency=medium
+
+  * New upstream release
+    - Fix for RB 3.4
+    - New pl translation
+  * Packaging Changes
+    - Updated maintainer email address
+    - updated copyright year for Rosetta translations
+    - added missing Vcs-Git to point to github debian branch
+    - updated with relevant recommendations from cme check dpkg
+    - added upstream metadata
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 28 Aug 2016 20:23:47 +0100
+
+rhythmbox-plugin-alternative-toolbar (0.17.1-1) unstable; urgency=medium
+
+  * New upstream release. (Closes: #824708)
+    - Option for dark theme
+    - Display Browse Categories horizontally or vertically
+    - Display app-menu correctly in budgie-desktop
+    - Updated translations from Launchpad.net
+    - correctly toggle search button via CTRL+F
+    - option to force the display of the app-menu if required
+
+ -- David Mohammed <foss.freedom@gmail.com>  Wed, 18 May 2016 21:59:51 +0100
+
+rhythmbox-plugin-alternative-toolbar (0.16.3-1) unstable; urgency=medium
+
+  * New upstream release. (Closes: #811263)
+    - Drag-drop of column headers (github issue 67)
+    - slider greyed out on start (github issue 69)
+    - Translations displayed correctly (github issue 64)
+    - add Git ChangeLog (v0.15.0 to v0.16.3)
+  * Packaging changes:
+    - byte-compilation on install to speed up plugin load
+    - python3-gi build-dependency to resolve build failure on some
+      Debian derivatives
+    - build dependency versions updated to target Jessie and similar
+      Debian derivatives
+
+ -- David Mohammed <foss.freedom@gmail.com>  Sun, 17 Jan 2016 11:06:18 +0000
+
+rhythmbox-plugin-alternative-toolbar (0.15.0-1) unstable; urgency=low
+
+  * Initial release. (Closes: #804192)
+
+ -- fossfreedom <foss.freedom@gmail.com>  Mon, 28 Dec 2015 19:20:43 +0000

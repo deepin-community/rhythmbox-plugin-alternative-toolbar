@@ -1,0 +1,11 @@
+#!/usr/bin/make -f
+export DH_VERSION = 1
+
+%:
+	dh $@ --with python3
+
+override_dh_auto_configure:
+	dh_auto_configure -- --libdir="\$${exec_prefix}/lib"
+
+override_dh_python3:
+	dh_python3 /usr/lib/rhythmbox

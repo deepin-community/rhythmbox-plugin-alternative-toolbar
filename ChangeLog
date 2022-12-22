@@ -1,0 +1,2542 @@
+commit 68ae3d37ae41edbead1f16bf5d12f0b8b92bc062
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Tue Sep 14 20:28:09 2021 +0100
+
+    Bump version
+
+ README.md                     | 2 +-
+ alternative-toolbar.plugin.in | 2 +-
+ configure.ac                  | 2 +-
+ readme.html                   | 2 +-
+ 4 files changed, 4 insertions(+), 4 deletions(-)
+
+commit 3294eebca62dd5ad3750665d885aac3fa20f31df
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Tue Sep 14 19:50:19 2021 +0100
+
+    Latest launchpad impish translations
+
+ po/en_AU.po | 141 +++++++++++++++++++++++++++++++-----------------------------
+ po/gl.po    | 141 +++++++++++++++++++++++++++++++-----------------------------
+ po/he.po    |   4 +-
+ po/hr.po    | 141 +++++++++++++++++++++++++++++++-----------------------------
+ po/pt.po    | 141 +++++++++++++++++++++++++++++++-----------------------------
+ 5 files changed, 290 insertions(+), 278 deletions(-)
+
+commit abb01a11bee5a8aa41711c5428ac254535ba416b
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Tue Sep 14 07:47:30 2021 +0100
+
+    Revert "Show app restart info dialog when plugin is disabled" #172
+    
+    This reverts commit 9e50cb17a99cd2cff6f6c1b71d2ad219cac6ac5d.
+
+ alternative-toolbar.py | 18 ------------------
+ 1 file changed, 18 deletions(-)
+
+commit f4887dd40ca150d1b95b476e0b47fbd1a45a6ca4
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Tue Aug 31 13:40:40 2021 +0100
+
+    Latest translations
+
+ po/af.po    | 143 ++++++++++++++++++++++++++++++-----------------------------
+ po/en_GB.po | 143 ++++++++++++++++++++++++++++++-----------------------------
+ po/he.po    | 141 +++++++++++++++++++++++++++++-----------------------------
+ po/tr.po    | 143 ++++++++++++++++++++++++++++++-----------------------------
+ po/uk.po    | 145 +++++++++++++++++++++++++++++++-----------------------------
+ 5 files changed, 365 insertions(+), 350 deletions(-)
+
+commit 685cff601eb1b77e39b829d2ee249de33425f989
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Thu Jul 29 19:45:51 2021 +0100
+
+    Convert README.md to readme.html
+
+ readme.html | 14 +++++++++++++-
+ 1 file changed, 13 insertions(+), 1 deletion(-)
+
+commit 08e2d0f7a60e8610e55f3226648fb2abaeadd8f3
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Thu Jul 29 19:41:28 2021 +0100
+
+    Update ChangeLog
+
+ ChangeLog | 203 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 203 insertions(+)
+
+commit 3e712becfbed35bd75e39896447c8dd041d9609e
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Thu Jul 29 19:39:46 2021 +0100
+
+    Remove lock file
+
+ Makefile.am | 2 ++
+ 1 file changed, 2 insertions(+)
+
+commit 01606f68928ff9170fd2fe5652bd692b1977f65b
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Thu Jul 29 19:32:29 2021 +0100
+
+    Bump version to 0.20.0
+
+ README.md                     | 2 +-
+ alternative-toolbar.plugin.in | 4 ++--
+ configure.ac                  | 2 +-
+ 3 files changed, 4 insertions(+), 4 deletions(-)
+
+commit e6b1452e8362214178f0daa3b84770247f628464
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Thu Jul 29 19:17:18 2021 +0100
+
+    Latest ast.po
+
+ po/ast.po | 37 ++++++++++++++++++++-----------------
+ 1 file changed, 20 insertions(+), 17 deletions(-)
+
+commit e712804c39115205f11185697f487a20afc384cb
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Sat Apr 24 10:41:51 2021 +0100
+
+    Latest oc translation from launchpad
+
+ po/oc.po | 45 ++++++++++++++++-----------------------------
+ 1 file changed, 16 insertions(+), 29 deletions(-)
+
+commit cf180131e8032f28704970b0f13e77e4765f44a7
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Sat Apr 24 10:38:05 2021 +0100
+
+    Add burmese translation from launchpad
+
+ po/LINGUAS |   1 +
+ po/my.po   | 299 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 300 insertions(+)
+
+commit c75425ab8cb83f3526d9ae9fc302fcabcf7b24ab
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Sat Apr 24 10:34:19 2021 +0100
+
+    Regen pot
+
+ po/alternative-toolbar.pot | 150 +++++++++++++++++++++++----------------------
+ 1 file changed, 77 insertions(+), 73 deletions(-)
+
+commit ab1f75ec01789ec7bf95fad6e289123b780277dc
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Sat Apr 24 10:32:20 2021 +0100
+
+    Case change for compact position options
+
+ ui/altpreferences.ui | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+commit 8197333a9d3224896b8b0cf0c9639d592ac26d7e
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Sat Apr 24 10:30:43 2021 +0100
+
+    Use combobox for category Fixes #92
+
+ alttoolbar_preferences.py                          | 28 ++----------
+ ...ythmbox.plugins.alternative_toolbar.gschema.xml |  4 +-
+ ui/altpreferences.ui                               | 52 ++++++++++++----------
+ 3 files changed, 34 insertions(+), 50 deletions(-)
+
+commit a743cde4c05510b5fb722b32309743f808498f52
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Sun Apr 18 14:44:23 2021 +0100
+
+    Actually use the combobox this time - #166
+
+ alttoolbar_preferences.py                                          | 3 ++-
+ alttoolbar_type.py                                                 | 2 +-
+ schema/org.gnome.rhythmbox.plugins.alternative_toolbar.gschema.xml | 4 ++--
+ ui/altpreferences.ui                                               | 4 ++--
+ 4 files changed, 7 insertions(+), 6 deletions(-)
+
+commit e27c72fb576dd149306ec341ebbe2f7003f640e8
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Sun Apr 18 14:24:17 2021 +0100
+
+    Compact view - add top/bottom option - Fixes: #166
+
+ alternative-toolbar.py                             |   2 +
+ alttoolbar_preferences.py                          |   6 +
+ alttoolbar_type.py                                 |  76 ++++----
+ ...ythmbox.plugins.alternative_toolbar.gschema.xml |   5 +
+ ui/altpreferences.ui                               | 202 +++++++++++++--------
+ 5 files changed, 172 insertions(+), 119 deletions(-)
+
+commit 160307bd09d86ed1824b7d3cd7654e578abcd876
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Fri Apr 16 23:37:09 2021 +0100
+
+    For compact toolbar ensure we dont display the menubutton
+
+ alttoolbar_type.py | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 9f88271e9a8192c71502b9c2fcea239a67f1fb25
+Merge: 73aa18d 9e50cb1
+Author: David Mohammed <fossfreedom@users.noreply.github.com>
+Date:   Tue Mar 16 09:04:53 2021 +0000
+
+    Merge pull request #156 from crvigh/restart-dialog-on-plugin-disable
+    
+    Show app restart info dialog when plugin is disabled
+
+commit 73aa18d7b86e89909dfcc5e83a52f14aabeaede9
+Merge: f29746b 85062fc
+Author: David Mohammed <fossfreedom@users.noreply.github.com>
+Date:   Mon Mar 1 08:45:44 2021 +0000
+
+    Merge pull request #164 from helfper/home-install
+    
+    Add home install option
+
+commit 85062fc8585df7983a47cbf68f08bbf0ce45f345
+Author: Helder Pereira <helfper@gmail.com>
+Date:   Sat Feb 27 21:35:06 2021 +0000
+
+    Add home install option
+
+ Makefile.am  | 15 +++++++++------
+ README.md    | 12 ++++++++++++
+ autogen.sh   | 14 +++++++++-----
+ configure.ac | 20 +++++++++++++++++---
+ 4 files changed, 47 insertions(+), 14 deletions(-)
+
+commit f29746b2e1ae635e77dfccf0f72a67ac6f61fe3d
+Author: David Mohammed <fossfreedom@users.noreply.github.com>
+Date:   Fri Feb 26 15:31:47 2021 +0000
+
+    Latest translations from launchpad
+
+ po/sr.po | 129 ++++++++++++++++++++++++++++-----------------------------------
+ po/sv.po |  65 ++++++++++++++------------------
+ 2 files changed, 86 insertions(+), 108 deletions(-)
+
+commit 9f2c27b51f19d36f24268000ebf96401509457e6
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Wed Aug 26 23:27:56 2020 +0100
+
+    Latest translations
+
+ po/LINGUAS     |   1 +
+ po/el.po       |  38 ++++----
+ po/en_AU.po    |  38 ++++----
+ po/en_GB.po    |  18 ++--
+ po/eu.po       |  78 +++++++++-------
+ po/he.po       |  38 ++++----
+ po/id.po       |   6 +-
+ po/oc.po       | 117 ++++++++++++------------
+ po/ru.po       |  40 ++++----
+ po/sr.po       |  40 ++++----
+ po/sr@latin.po |  42 +++++----
+ po/tr.po       |  40 ++++----
+ po/ug.po       | 283 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/zh_TW.po    |  40 ++++----
+ 14 files changed, 576 insertions(+), 243 deletions(-)
+
+commit 50cbad34b514551cf494bad787b5652f68586c93
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Wed Aug 26 20:01:01 2020 +0100
+
+    No longer explicitly hide the Import button (Closes: #158)
+    v3.4.4 changes mean we shouldn't explictly hide
+    the Import button that was previously visible by other
+    means.
+
+ alttoolbar_controller.py | 9 ---------
+ 1 file changed, 9 deletions(-)
+
+commit 9e50cb17a99cd2cff6f6c1b71d2ad219cac6ac5d
+Author: crvi <crvisqr@gmail.com>
+Date:   Sat Aug 8 03:48:11 2020 +0530
+
+    Show app restart info dialog when plugin is disabled
+
+ alternative-toolbar.py | 18 ++++++++++++++++++
+ 1 file changed, 18 insertions(+)
+
+commit 84f15aa2c5f21e466c1fbf5d18c8967bfd69f5cd
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Mon Mar 23 21:52:49 2020 +0000
+
+    Update ChangeLog
+
+ ChangeLog | 46 ++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 46 insertions(+)
+
+commit 1c50e1bdaba3a00a1781e4f488bfc00d3e741216
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Mon Mar 23 21:51:23 2020 +0000
+
+    v0.19.3 updates
+
+ README.md                     | 6 +++---
+ alternative-toolbar.plugin.in | 2 +-
+ configure.ac                  | 2 +-
+ readme.html                   | 6 +++---
+ 4 files changed, 8 insertions(+), 8 deletions(-)
+
+commit ff892d802bae099ef94348b60b53e70f21e92335
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Mon Mar 23 21:46:17 2020 +0000
+
+    Latest translations
+
+ po/LINGUAS  |   2 +
+ po/af.po    |  40 +++++----
+ po/ast.po   | 285 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/ckb.po   | 282 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/da.po    |  40 +++++----
+ po/de.po    |  40 +++++----
+ po/en_GB.po |  40 +++++----
+ po/es.po    |  38 ++++----
+ po/fi.po    |  40 +++++----
+ po/fr.po    |  38 ++++----
+ po/gl.po    |  40 +++++----
+ po/hr.po    |  38 ++++----
+ po/id.po    |  38 ++++----
+ po/it.po    |  38 ++++----
+ po/ko.po    |  40 +++++----
+ po/pt.po    |  40 +++++----
+ po/uk.po    |  40 +++++----
+ 17 files changed, 872 insertions(+), 247 deletions(-)
+
+commit a76a6e086f180ad60dc363a39485db448afb25b7
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Mon Jan 27 20:07:22 2020 +0000
+
+    Update ChangeLog
+
+ ChangeLog | 197 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 197 insertions(+)
+
+commit 0b7e5c886ef0ff73417d56d238ab8fbc0b852076
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Mon Jan 27 20:06:44 2020 +0000
+
+     Add tarball signing
+
+ GENERAL | 2 ++
+ 1 file changed, 2 insertions(+)
+
+commit f6b6cce97aa3d20a0f6f0ba7e7d0e6ddda12978f
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Mon Jan 27 19:57:56 2020 +0000
+
+    Remove unneeded variable
+
+ alttoolbar_type.py | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 91ca70a969d6c662a997397dc180ff513769a82c
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Mon Jan 27 19:55:28 2020 +0000
+
+    Packaging changes for release
+
+ GENERAL      | 13 -------------
+ README.md    |  5 ++---
+ configure.ac |  2 +-
+ readme.html  |  6 ++++--
+ 4 files changed, 7 insertions(+), 19 deletions(-)
+
+commit fa8d050fe5be017e88dfa2bafaa1964d4da54c7b
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Mon Jan 27 19:49:42 2020 +0000
+
+    Update copyright year
+
+ alternative-toolbar.plugin.in | 5 ++---
+ alternative-toolbar.py        | 2 +-
+ alttoolbar_controller.py      | 2 +-
+ alttoolbar_plugins.py         | 2 +-
+ alttoolbar_preferences.py     | 2 +-
+ alttoolbar_rb3compat.py       | 2 +-
+ alttoolbar_repeat.py          | 2 +-
+ alttoolbar_sidebar.py         | 2 +-
+ alttoolbar_type.py            | 2 +-
+ alttoolbar_widget.py          | 2 +-
+ 10 files changed, 11 insertions(+), 12 deletions(-)
+
+commit b17c52046249abace2305e5cf399f0d2d8c05bf0
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Mon Jan 27 19:44:34 2020 +0000
+
+    Latest translations
+
+ po/af.po       | 165 ++++++++++++++++++++++++++++++---------------------------
+ po/bg.po       |  83 ++++++++++++++---------------
+ po/bs.po       |  83 ++++++++++++++---------------
+ po/ca.po       |  83 ++++++++++++++---------------
+ po/cs.po       |  83 ++++++++++++++---------------
+ po/da.po       |  83 ++++++++++++++---------------
+ po/de.po       |  83 ++++++++++++++---------------
+ po/el.po       |  83 ++++++++++++++---------------
+ po/en_AU.po    |  83 ++++++++++++++---------------
+ po/en_GB.po    |  83 ++++++++++++++---------------
+ po/es.po       |  85 ++++++++++++++---------------
+ po/eu.po       |  83 ++++++++++++++---------------
+ po/fi.po       |  86 ++++++++++++++----------------
+ po/fr.po       |  83 ++++++++++++++---------------
+ po/gl.po       |  83 ++++++++++++++---------------
+ po/he.po       |  83 ++++++++++++++---------------
+ po/hr.po       |  83 ++++++++++++++---------------
+ po/id.po       |  83 ++++++++++++++---------------
+ po/it.po       |  83 ++++++++++++++---------------
+ po/ja.po       |  83 ++++++++++++++---------------
+ po/ko.po       |  86 ++++++++++++++----------------
+ po/lv.po       |  83 ++++++++++++++---------------
+ po/mnw.po      |  31 +++++------
+ po/ms.po       |  83 ++++++++++++++---------------
+ po/pl.po       |  74 +++++++++++---------------
+ po/pt.po       |  91 +++++++++++++++----------------
+ po/pt_BR.po    |  83 ++++++++++++++---------------
+ po/ru.po       |  83 ++++++++++++++---------------
+ po/sk.po       |  83 ++++++++++++++---------------
+ po/sl.po       |  83 ++++++++++++++---------------
+ po/sq.po       |  83 ++++++++++++++---------------
+ po/sr.po       |  83 ++++++++++++++---------------
+ po/sr@latin.po |  74 +++++++++++---------------
+ po/sv.po       |  83 ++++++++++++++---------------
+ po/szl.po      |  88 +++++++++++++++---------------
+ po/th.po       |  83 ++++++++++++++---------------
+ po/tr.po       |  83 ++++++++++++++---------------
+ po/uk.po       |  83 ++++++++++++++---------------
+ po/zh_CN.po    |  83 ++++++++++++++---------------
+ po/zh_TW.po    |  83 ++++++++++++++---------------
+ 40 files changed, 1610 insertions(+), 1743 deletions(-)
+
+commit 6ec90b024fd169d000b70cf60c377c526033b1ee
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Sun Jan 26 14:49:18 2020 +0000
+
+    Revise searching without using keybinder #151
+
+ alternative-toolbar.py | 13 +++++++++++++
+ alttoolbar_type.py     | 46 +++++++++++++++++++++++-----------------------
+ 2 files changed, 36 insertions(+), 23 deletions(-)
+
+commit f53c316f75f655418f1a642ce213c11590af1160
+Merge: abdc24b e7e12b3
+Author: David Mohammed <fossfreedom@users.noreply.github.com>
+Date:   Thu Dec 5 12:17:04 2019 +0000
+
+    Merge pull request #149 from HEXcube/remove-unused-tar
+    
+    Remove unused tar file containing SVGs
+
+commit abdc24bc52007ceae4564f9c3452f51d1a931d34
+Merge: 866399a ca381b4
+Author: David Mohammed <fossfreedom@users.noreply.github.com>
+Date:   Thu Dec 5 12:16:41 2019 +0000
+
+    Merge pull request #148 from HEXcube/optimize-svg
+    
+    Optimize SVG icons
+
+commit 866399ae079cf2855f02c2379a8a5e088419e553
+Author: David Mohammed <fossfreedom@users.noreply.github.com>
+Date:   Thu Dec 5 12:12:24 2019 +0000
+
+    Add mnw translation
+
+ po/LINGUAS | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 3ffa4f099f95af4485365137627979dcf5f407d3
+Author: David Mohammed <fossfreedom@users.noreply.github.com>
+Date:   Thu Dec 5 12:11:52 2019 +0000
+
+    Latest launchpad translation
+
+ po/mnw.po | 298 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 298 insertions(+)
+
+commit d7fd67c23847c3ed63b6d4de6c1becd369de3665
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Mon Oct 28 21:36:15 2019 +0000
+
+    Revert syslog spam issue - upstream issue #142
+
+ alttoolbar_type.py | 12 +++++++-----
+ 1 file changed, 7 insertions(+), 5 deletions(-)
+
+commit f64ec9e36262fc8adc952be87618d19af93968f0
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Mon Oct 28 18:28:30 2019 +0000
+
+    Make keybinder an optional package dependency #150
+
+ README.md                     |  6 ++++--
+ alternative-toolbar.plugin.in |  2 +-
+ alttoolbar_type.py            | 21 +++++++++++++--------
+ configure.ac                  |  4 ++--
+ 4 files changed, 20 insertions(+), 13 deletions(-)
+
+commit e7e12b358c956d2f51d25d7ce1d4a6f5927a9560
+Author: HEXcube <hexcubed@gmail.com>
+Date:   Sun Oct 20 15:01:17 2019 +0530
+
+    Remove unused tar file containing SVGs
+
+ img/rb-symbolic-icons.tar.gz | Bin 10730 -> 0 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit ca381b44c8196ba4e809360fea7c3d1766aa8dab
+Author: HEXcube <hexcubed@gmail.com>
+Date:   Sun Oct 20 14:46:51 2019 +0530
+
+    Optimize SVG icons
+
+ img/audio-radio-symbolic.svg                      |  91 +----
+ img/audio-x-playlist-automatic-symbolic.svg       | 168 ++--------
+ img/audio-x-playlist-recently-added-symbolic.svg  |  77 +----
+ img/audio-x-playlist-recently-played-symbolic.svg |  67 +---
+ img/audio-x-playlist-symbolic.svg                 | 118 +------
+ img/audio-x-queue-symbolic.svg                    | 113 +------
+ img/lastfm-symbolic.svg                           | 390 +---------------------
+ img/librefm-symbolic.svg                          |  50 +--
+ 8 files changed, 103 insertions(+), 971 deletions(-)
+
+commit dc8961a81d666ad298af12bf7a8fbd54b9aed433
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Wed Oct 16 22:45:36 2019 +0100
+
+    Update ChangeLog
+
+ ChangeLog | 165 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 165 insertions(+)
+
+commit 7570a99bc85f448d3d9333257661dc953db889a7
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Wed Oct 16 22:44:32 2019 +0100
+
+    Bump release version
+
+ README.md                     | 2 +-
+ alternative-toolbar.plugin.in | 2 +-
+ configure.ac                  | 2 +-
+ 3 files changed, 3 insertions(+), 3 deletions(-)
+
+commit d4355bb12c03e0774cbf10a6bf1f7141f8e4983e
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Wed Oct 16 22:39:25 2019 +0100
+
+    No need to translate the altmenubar
+
+ po/POTFILES.skip | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 90f05b3e01932d3dcc520401cf5926895f4f53f1
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Wed Oct 16 22:34:06 2019 +0100
+
+    Bump version
+
+ README.md                     | 2 +-
+ alternative-toolbar.plugin.in | 2 +-
+ configure.ac                  | 2 +-
+ 3 files changed, 3 insertions(+), 3 deletions(-)
+
+commit a4dee1af2205de81ff5be4851b0f67e68824500b
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Wed Oct 16 22:27:55 2019 +0100
+
+    Cleanup shuffle repeat changes
+
+ alttoolbar_type.py | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+
+commit c0846a703ac47d14982412bbf174176ea420d5a8
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Wed Oct 16 22:26:08 2019 +0100
+
+    Save toolbar type once first start #147
+
+ alternative-toolbar.py | 2 ++
+ 1 file changed, 2 insertions(+)
+
+commit 6b15c46bbde00eead334bc5d5c2ca10919e08258
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Wed Oct 16 22:03:22 2019 +0100
+
+    Make shuffle repeat work again on 18.04
+
+ alttoolbar_type.py | 7 ++++---
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+
+commit 983da7544e6c6f492a9267022dd02239b6927ef6
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Wed Oct 16 21:51:18 2019 +0100
+
+    Simplify the determination for global header to just GNOME sessions closes #147
+
+ alternative-toolbar.py | 11 ++++-------
+ 1 file changed, 4 insertions(+), 7 deletions(-)
+
+commit 2c29cf208c2b1bb44499a623e996a13d3d5c43d1
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Mon Oct 7 21:55:15 2019 +0100
+
+    Don't show our plugin implementation later than 3.4.3 Closes #146
+
+ alternative-toolbar.py | 16 +++++++++++++++-
+ 1 file changed, 15 insertions(+), 1 deletion(-)
+
+commit 790c4cc0b28f5d90ab28a9cf2c543bff8803f4f8
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Mon Oct 7 19:40:58 2019 +0100
+
+    Stop erroneous warning messages for play and shuffle
+
+ alttoolbar_type.py | 7 ++++---
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+
+commit c04f5ba7fa2d0b60a682027592d68e45331e2a7a
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Sun Oct 6 21:40:20 2019 +0100
+
+    Add traditional menu to compact toolbar - Closes #145
+
+ Makefile.am        |   3 +-
+ alttoolbar_type.py |  12 +++
+ ui/altmenubar.ui   | 236 +++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 3 files changed, 250 insertions(+), 1 deletion(-)
+
+commit cfac2839ee71e9d6c491fdfe9461f05d11641357
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Sun Oct 6 13:20:21 2019 +0100
+
+    Latest translations ko
+
+ po/ko.po | 9 ++++++---
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+
+commit 27e4fda9f2296ad11c2977013bd7ad337bf4cd77
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Sun Oct 6 13:18:23 2019 +0100
+
+    Latest translations
+
+ po/LINGUAS |   1 +
+ po/fi.po   |  33 +++++--
+ po/szl.po  | 295 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 3 files changed, 321 insertions(+), 8 deletions(-)
+
+commit a4dd77859f72c41c95dccff1524b613aede92d73
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Sun Oct 6 12:11:42 2019 +0100
+
+    Don't spam the syslog Closes #142
+    The original code was a work-around for old distro's.  Lets
+    assume all users are now on more modern equiv and dont need
+    the workaround
+
+ alttoolbar_type.py | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+commit d32b5238e079d12b36bb4bfac4ccab3239a87948
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Sun Oct 6 11:59:28 2019 +0100
+
+    Use keybinder to invoke search CTRL+F Closes #130
+
+ alttoolbar_type.py | 32 ++++++++++++++++++++++----------
+ configure.ac       |  3 ++-
+ 2 files changed, 24 insertions(+), 11 deletions(-)
+
+commit 50e01f73bfd9d80b4d18068ee916b2e601c9e13e
+Author: David Mohammed <fossfreedom@users.noreply.github.com>
+Date:   Mon Sep 16 13:28:04 2019 +0100
+
+    Update README.md
+
+ README.md | 2 ++
+ 1 file changed, 2 insertions(+)
+
+commit 72ab6a446372e8b7fa2acff4697c08b294fb61ab
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Tue Mar 5 19:01:20 2019 +0000
+
+    Correct metainfo copyright
+
+ metainfo/org.gnome.rhythmbox.alternative-toolbar.addon.appdata.xml | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit bcb9467db481f7ac806c420335d17dbfd20598c1
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Tue Mar 5 16:31:36 2019 +0000
+
+    Add updated ChangeLog for the release
+
+ ChangeLog | 173 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 173 insertions(+)
+
+commit ad0e1541eaaad5b1dc7d022c51c3f154d30c0ea2
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Tue Mar 5 16:30:36 2019 +0000
+
+    Version info changes and rename metainfo since too long
+
+ Makefile.am                                                           | 2 +-
+ configure.ac                                                          | 2 +-
+ ....xml => org.gnome.rhythmbox.alternative-toolbar.addon.appdata.xml} | 4 ++--
+ 3 files changed, 4 insertions(+), 4 deletions(-)
+
+commit 86ebed4b7b9f6e75e734db3897b02f4ec56c39a4
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Tue Mar 5 16:23:30 2019 +0000
+
+    Add v0.18.4 release info
+
+ README.md                     |  2 +-
+ alternative-toolbar.plugin.in |  2 +-
+ readme.html                   | 23 ++++++++++++++++++++++-
+ 3 files changed, 24 insertions(+), 3 deletions(-)
+
+commit 428e652cdab72bc9257c916b6e2e2ffa76e2b179
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Tue Mar 5 16:18:14 2019 +0000
+
+    Remove translations that have no or little translations
+
+ po/LINGUAS |   6 --
+ po/bn.po   | 279 -------------------------------------------------------------
+ po/cy.po   | 279 -------------------------------------------------------------
+ po/hu.po   | 279 -------------------------------------------------------------
+ po/kab.po  | 279 -------------------------------------------------------------
+ po/sd.po   | 279 -------------------------------------------------------------
+ po/tg.po   | 279 -------------------------------------------------------------
+ 7 files changed, 1680 deletions(-)
+
+commit cb5a022a10a4669a86e7505235dc1ffcba8bfdef
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Tue Mar 5 16:12:41 2019 +0000
+
+    Latest translations from launchpad - disco
+
+ po/LINGUAS     |  12 +++
+ po/af.po       |   6 +-
+ po/am.po       | 279 +++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/bg.po       |   6 +-
+ po/bn.po       | 279 +++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/bs.po       | 295 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/ca.po       |   6 +-
+ po/cs.po       |   6 +-
+ po/cy.po       | 279 +++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/da.po       |  10 +-
+ po/de.po       |   8 +-
+ po/el.po       |  35 ++++---
+ po/en_AU.po    |  16 +--
+ po/en_GB.po    |   8 +-
+ po/eo.po       |   8 +-
+ po/es.po       |   7 +-
+ po/eu.po       | 283 ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/fi.po       |  12 ++-
+ po/fr.po       |   6 +-
+ po/gl.po       |   8 +-
+ po/he.po       |   6 +-
+ po/hr.po       |   6 +-
+ po/hu.po       | 279 +++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/id.po       |  18 ++--
+ po/it.po       |   8 +-
+ po/ja.po       |   6 +-
+ po/kab.po      |   6 +-
+ po/ko.po       |  14 +--
+ po/ku.po       | 279 +++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/lv.po       | 299 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/ms.po       |   6 +-
+ po/oc.po       | 279 +++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/pl.po       |   8 +-
+ po/pt.po       |   8 +-
+ po/pt_BR.po    |   8 +-
+ po/ru.po       |  22 ++---
+ po/sd.po       | 279 +++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/sk.po       |   6 +-
+ po/sl.po       |   8 +-
+ po/sq.po       | 279 +++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/sr.po       |   8 +-
+ po/sr@latin.po |   6 +-
+ po/sv.po       |  93 ++++++++++--------
+ po/tg.po       | 279 +++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/th.po       |  55 ++++++-----
+ po/tr.po       |   7 +-
+ po/uk.po       |  22 ++---
+ po/zh_CN.po    |  16 +--
+ po/zh_TW.po    |  22 ++---
+ 49 files changed, 3665 insertions(+), 236 deletions(-)
+
+commit d70d0ef80a65b2586d165fd25382a089a1722b56
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Sun Mar 3 09:16:45 2019 +0000
+
+    Latest translations
+
+ po/es.po | 0
+ po/tr.po | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 55b1c8004972b7ddc237cab7648fa965ea0493b3
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Sun Mar 3 09:16:26 2019 +0000
+
+    Latest translations
+
+ po/es.po | 13 ++++++++-----
+ po/tr.po | 16 ++++++++--------
+ 2 files changed, 16 insertions(+), 13 deletions(-)
+
+commit a5f01c491c593c8d8ffbb69e5edc6ca4e9b796e9
+Merge: 9b71b2c fb7d013
+Author: David Mohammed <fossfreedom@users.noreply.github.com>
+Date:   Mon Feb 25 11:20:05 2019 +0000
+
+    Merge pull request #141 from TeknoMobil/patch-3
+    
+    Update tr.po
+
+commit 9b71b2c5d9f29f39d3161b7db66161342c8b8316
+Merge: 30a2b3d 3c4017f
+Author: David Mohammed <fossfreedom@users.noreply.github.com>
+Date:   Mon Feb 25 08:16:13 2019 +0000
+
+    Merge pull request #140 from TeknoMobil/patch-2
+    
+    Fedora Install
+
+commit fb7d013aa3e52d544e91f9100a559a40fd384427
+Author: Serdar Sağlam <42881121+TeknoMobil@users.noreply.github.com>
+Date:   Mon Feb 25 10:11:08 2019 +0300
+
+    Update tr.po
+    
+    Hi
+    Re-translated according to current practice
+
+ po/tr.po | 78 +++++++++++++++++++++++++++++++++-------------------------------
+ 1 file changed, 40 insertions(+), 38 deletions(-)
+
+commit 3c4017f30980d234876fda01280610d8cadffcd6
+Author: Serdar Sağlam <42881121+TeknoMobil@users.noreply.github.com>
+Date:   Mon Feb 25 10:08:31 2019 +0300
+
+    Fedora Install
+    
+    Hi
+    gir1.2-glib-2.0 gir1.2-gstreamer-1.0 gir1.2-gtk-3.0 gir1.2-peas-1.0 gir1.2-rb-3.0
+    These packages are not available in fedora.
+    Not required, internally available under another name
+    ----------------------------------------------------------------------
+    libglib2.0-dev = glib2-devel
+    python3-gi = python3-gobject
+    -----------------------------------------------------------------------
+    
+    Respects
+
+ README.md | 20 ++++++++++++++++++++
+ 1 file changed, 20 insertions(+)
+
+commit 30a2b3d1558ec3824ef6676ad05c09ba1d644ce8
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Sun Feb 3 23:03:32 2019 +0000
+
+    Add ChangeLog
+
+ ChangeLog | 50 ++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 50 insertions(+)
+
+commit 6223f24fd171cb180a4af22455079004919e7525
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Sun Feb 3 23:02:07 2019 +0000
+
+    v0.18.3
+
+ README.md                     | 2 +-
+ alternative-toolbar.plugin.in | 5 +++--
+ configure.ac                  | 2 +-
+ 3 files changed, 5 insertions(+), 4 deletions(-)
+
+commit 342dfcaba95d8241ea212d9a7ce359861d267f7f
+Merge: 79b730a 6dfe1a4
+Author: David Mohammed <fossfreedom@users.noreply.github.com>
+Date:   Sun Feb 3 22:45:34 2019 +0000
+
+    Merge pull request #139 from TeknoMobil/patch-1
+    
+    Update Turkish Language
+
+commit 6dfe1a477dbddd0660c2b275172fe7b4f0b8beb7
+Author: Serdar Sağlam <42881121+TeknoMobil@users.noreply.github.com>
+Date:   Mon Feb 4 01:16:34 2019 +0300
+
+    Update Turkish Language
+    
+    Hi,
+    Update Turkish Language
+
+ po/tr.po | 150 +++++++++++++++++++++++++++++++++++++--------------------------
+ 1 file changed, 88 insertions(+), 62 deletions(-)
+
+commit 79b730af9c1d5636b08c7ffd5620f6ef5279b4bf
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Tue Jan 22 12:30:41 2019 +0000
+
+    Disable column moving for non-english locales #138
+
+ alttoolbar_type.py | 9 +++++++++
+ 1 file changed, 9 insertions(+)
+
+commit badc59e31fe1abcc0d199c559004418144c06a9f
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Thu Jan 10 10:01:43 2019 +0000
+
+    Update ChangeLog for the release
+
+ ChangeLog | 29 +++++++++++++++++++++++++++++
+ 1 file changed, 29 insertions(+)
+
+commit ccf7a37fbc24c71f88b6fd5a17da60f5e1178a79
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Thu Jan 10 10:00:20 2019 +0000
+
+    Copyright year change
+
+ alternative-toolbar.py    | 2 +-
+ alttoolbar_controller.py  | 2 +-
+ alttoolbar_plugins.py     | 2 +-
+ alttoolbar_preferences.py | 2 +-
+ alttoolbar_rb3compat.py   | 2 +-
+ alttoolbar_repeat.py      | 2 +-
+ alttoolbar_sidebar.py     | 2 +-
+ alttoolbar_type.py        | 2 +-
+ alttoolbar_widget.py      | 2 +-
+ 9 files changed, 9 insertions(+), 9 deletions(-)
+
+commit e224f595204ab26359b5601e399962706e0680e1
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Thu Jan 10 09:52:04 2019 +0000
+
+    Prepare for v0.18.2 release
+
+ ChangeLog    | 59 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ README.md    |  2 +-
+ configure.ac |  2 +-
+ readme.html  |  2 +-
+ 4 files changed, 62 insertions(+), 3 deletions(-)
+
+commit f30231052b978615d0c7e0f02f1611a3ab0c1086
+Author: David Mohammed <fossfreedom@users.noreply.github.com>
+Date:   Thu Jan 10 09:23:30 2019 +0000
+
+    Use the stock sidebar as the default
+    
+    Make it a user buy-in to use the enhanced style
+
+ schema/org.gnome.rhythmbox.plugins.alternative_toolbar.gschema.xml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 6cf6bed31acb02ff637b6c40d14a0cd60e34bf9a
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Tue Jan 8 00:05:09 2019 +0000
+
+    Hide the floating bar that appears in all entry views - it really isnt needed
+
+ alttoolbar_type.py | 15 +++++++++++++++
+ 1 file changed, 15 insertions(+)
+
+commit 8340837c987a96642fdce9ab4da2d8c32e474259
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Mon Jan 7 22:35:00 2019 +0000
+
+    RB 3.4.3 workaround to enable column movement
+
+ alttoolbar_type.py | 8 +++++---
+ 1 file changed, 5 insertions(+), 3 deletions(-)
+
+commit a2fd7c2d7a901ef012f1aeb3dc2e4f2ab00664dd
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Mon Jan 7 22:04:24 2019 +0000
+
+    Remove the split of the appmenu as per revised GNOME guidelines #132
+
+ alttoolbar_type.py | 18 +++++++++---------
+ 1 file changed, 9 insertions(+), 9 deletions(-)
+
+commit 7103702eff369fc29322a43396cde40c597ba7e9
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Mon Jan 7 21:41:53 2019 +0000
+
+    Initial RB 3.4.3 startup fix
+    Startup fix to enable the plugin to start up - this is at the
+    expense of being able to change column positions - GTK python
+    changes for the TreeView means reworking the code in this area.
+
+ alttoolbar_type.py | 10 ++++++++--
+ 1 file changed, 8 insertions(+), 2 deletions(-)
+
+commit 75a83b06887352b3f1fb0ec0a18d65d8e99d9d75
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Sat Sep 15 11:00:05 2018 +0100
+
+    Update Changelog via make dist
+
+ ChangeLog | 235 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 235 insertions(+)
+
+commit 5518f8d1e1ac04438e5cc4fe47efbbdc7e6319c5
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Sat Sep 15 10:57:25 2018 +0100
+
+    Regen readme.html
+
+ readme.html | 70 +++++++++++++++++++++++++++++++------------------------------
+ 1 file changed, 36 insertions(+), 34 deletions(-)
+
+commit 8b99ef42aacb65340e0527c7660ab16d54816937
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Sat Sep 15 10:45:41 2018 +0100
+
+    PEP8 issues
+
+ alternative-toolbar.plugin.in |  2 +-
+ alternative-toolbar.py        | 18 ++++++++++--------
+ alttoolbar_controller.py      |  7 +++----
+ alttoolbar_plugins.py         |  3 +--
+ alttoolbar_preferences.py     |  3 ++-
+ alttoolbar_rb3compat.py       | 11 ++++++-----
+ alttoolbar_repeat.py          |  6 ++----
+ alttoolbar_sidebar.py         | 21 ++++++++++-----------
+ alttoolbar_type.py            | 29 +++++++++++++++--------------
+ alttoolbar_widget.py          | 18 +++++++++++-------
+ 10 files changed, 61 insertions(+), 57 deletions(-)
+
+commit 3f53cb171ede6cd0c4d4aa7d70ed4b6503ffa50b
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Sat Sep 15 10:17:19 2018 +0100
+
+    Translation updates
+
+ README.md      |   2 +-
+ configure.ac   |   2 +-
+ po/LINGUAS     |   6 ++
+ po/af.po       |  66 ++++++-------
+ po/bg.po       |  87 +++++++----------
+ po/ca.po       |  78 +++++++--------
+ po/cs.po       |  68 ++++++-------
+ po/da.po       |  68 ++++++-------
+ po/de.po       |  68 ++++++-------
+ po/el.po       |  68 ++++++-------
+ po/en_AU.po    |  68 ++++++-------
+ po/en_GB.po    |  68 ++++++-------
+ po/en_US.po    |  68 ++++++-------
+ po/eo.po       |  66 ++++++-------
+ po/es.po       |  69 ++++++-------
+ po/fi.po       |  76 +++++++--------
+ po/fr.po       |  80 +++++++--------
+ po/gl.po       | 299 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/he.po       | 294 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/hr.po       | 297 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/id.po       |  68 ++++++-------
+ po/it.po       |  80 +++++++--------
+ po/ja.po       |  68 ++++++-------
+ po/kab.po      |  66 ++++++-------
+ po/ko.po       |  66 ++++++-------
+ po/ms.po       |  80 +++++++--------
+ po/pl.po       |  68 ++++++-------
+ po/pt.po       |  68 ++++++-------
+ po/pt_BR.po    |  78 +++++++--------
+ po/ru.po       |  69 ++++++-------
+ po/sk.po       |  69 ++++++-------
+ po/sl.po       |  86 +++++++----------
+ po/sr.po       |  82 +++++++---------
+ po/sr@latin.po |  68 ++++++-------
+ po/sv.po       |  66 ++++++-------
+ po/th.po       |  66 ++++++-------
+ po/uk.po       |  69 ++++++-------
+ po/zh_CN.po    |  66 ++++++-------
+ po/zh_TW.po    |  72 ++++++--------
+ 39 files changed, 1883 insertions(+), 1370 deletions(-)
+
+commit 2eec8622091e18c964a964799ebcbf1125eadbd1
+Merge: cfc6e9c 72bdc5c
+Author: David Mohammed <fossfreedom@users.noreply.github.com>
+Date:   Fri Sep 14 23:05:37 2018 +0100
+
+    Merge pull request #129 from McSinyx/master
+    
+    Fix bug introduced by #128 and clean up README.md
+
+commit 72bdc5c2f59a785b959a71064f29a2534da84fb3
+Author: Nguyễn Gia Phong <vn.mcsinyx@gmail.com>
+Date:   Fri Sep 14 22:07:33 2018 +0700
+
+    Clean up some inconsistancies in README.md
+
+ README.md | 61 ++++++++++++++++++++++++++++++++++---------------------------
+ 1 file changed, 34 insertions(+), 27 deletions(-)
+
+commit 0cc9fd0f000bb9ace898663a4a3a43bec329382c
+Author: Nguyễn Gia Phong <vn.mcsinyx@gmail.com>
+Date:   Fri Sep 14 21:55:41 2018 +0700
+
+    Fix buggy click-to-seek
+
+ alttoolbar_widget.py | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit cfc6e9cb2d8e4fcaf151e6a4deb34685ece43d63
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Tue Sep 4 11:36:51 2018 +0100
+
+    Regen translation template
+
+ po/alternative-toolbar.pot | 62 +++++++++++++++++++---------------------------
+ 1 file changed, 26 insertions(+), 36 deletions(-)
+
+commit d245b1fbd8e176dc93ceaf83f6fdce7d64fb8917
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Tue Sep 4 11:25:39 2018 +0100
+
+    Ack - #128
+
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 4c61f811f40c164bd1e68a0db6c028f174b1ae23
+Merge: 3385317 dc6349d
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Tue Sep 4 11:23:11 2018 +0100
+
+    Merge branch 'McSinyx-fix-127'
+
+commit dc6349d4f34f43fa654030bfb22d7266aba57e35
+Merge: 3385317 c57ec7c
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Tue Sep 4 11:20:18 2018 +0100
+
+    Merge branch 'fix-127' of https://github.com/McSinyx/rhythmbox-alternative-toolbar into McSinyx-fix-127
+
+commit 3385317f6fa58253cdbff0606240ece82a24c22d
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Tue Sep 4 11:13:04 2018 +0100
+
+    Ack for #127
+
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit afa54f33d2bd20f85ea3755cda9ce57d8e3bf22a
+Merge: 1d3e263 fe393b2
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Tue Sep 4 11:09:01 2018 +0100
+
+    Merge branch 'McSinyx-master'
+
+commit c57ec7ca779f45c4fbcca891c26e449b5f9bde97
+Author: Nguyễn Gia Phong <vn.mcsinyx@gmail.com>
+Date:   Tue Sep 4 10:13:27 2018 +0700
+
+    Refactor slider to fix the laggy motion bug
+
+ alternative-toolbar.py    |  63 +++++++--------
+ alttoolbar_preferences.py |   7 --
+ alttoolbar_type.py        |  23 +-----
+ alttoolbar_widget.py      | 196 +++++++++++++---------------------------------
+ ui/altpreferences.ui      |  16 ----
+ 5 files changed, 83 insertions(+), 222 deletions(-)
+
+commit fe393b2beec517d2ddb54c29d7910aaf0cd28ce5
+Author: Nguyễn Gia Phong <vn.mcsinyx@gmail.com>
+Date:   Tue Aug 28 21:25:26 2018 +0700
+
+    Switch back to the more precise repeat one
+
+ alttoolbar_repeat.py | 112 ++++++++++++++++++++++++++-------------------------
+ 1 file changed, 58 insertions(+), 54 deletions(-)
+
+commit 1d3e2631a26c9c92ca3080adc5bdf5b0a5e076c3
+Merge: 1a546d8 fe65e6f
+Author: David Mohammed <fossfreedom@users.noreply.github.com>
+Date:   Wed Mar 14 15:51:50 2018 +0000
+
+    Merge pull request #121 from dyskette/hb-spacing
+    
+    Use default GNOME headerbar spacing value
+
+commit fe65e6f1c3c6e2c72ba8cb60e238df6c8dbb1aeb
+Author: Eddy Castillo <dyskette@gmail.com>
+Date:   Wed Mar 14 09:08:42 2018 -0600
+
+    Use default GNOME headerbar spacing value
+
+ alttoolbar_type.py | 9 ++++++---
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+
+commit 1a546d85757073bb4a5929375691b3d16be2e573
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Sun Feb 11 22:45:15 2018 +0000
+
+    Fix errors and warnings from check-all-the-things
+
+ alttoolbar_rb3compat.py                                            | 2 +-
+ ...gnome.rhythmbox.rhythmbox-alternative-toolbar.addon.appdata.xml | 7 +++++--
+ 2 files changed, 6 insertions(+), 3 deletions(-)
+
+commit 8bfed7882129ae6e678849c541efd279ba1b18f6
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Sun Feb 11 22:27:15 2018 +0000
+
+    Add email address to copyright
+
+ alternative-toolbar.py    | 2 +-
+ alttoolbar_controller.py  | 2 +-
+ alttoolbar_plugins.py     | 2 +-
+ alttoolbar_preferences.py | 2 +-
+ alttoolbar_rb3compat.py   | 2 +-
+ alttoolbar_repeat.py      | 2 +-
+ alttoolbar_sidebar.py     | 2 +-
+ alttoolbar_type.py        | 2 +-
+ alttoolbar_widget.py      | 2 +-
+ 9 files changed, 9 insertions(+), 9 deletions(-)
+
+commit c76ba997c822e78859bfa279add5d657f5018ed8
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Sun Feb 11 21:07:00 2018 +0000
+
+    Make a valid metainfo file
+
+ Makefile.am                                                        | 2 +-
+ ...nome.rhythmbox.rhythmbox-alternative-toolbar.addon.appdata.xml} | 7 ++++++-
+ 2 files changed, 7 insertions(+), 2 deletions(-)
+
+commit 6624dfddec6949ac4022e625ee1383b80bb06516
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Sun Feb 11 15:20:14 2018 +0000
+
+    Update Changelog again
+
+ ChangeLog | 26 ++++++++++++++++++++++++++
+ 1 file changed, 26 insertions(+)
+
+commit a92912f4572cdffc1fef91c1a4e563ff017ddccd
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Sun Feb 11 15:19:07 2018 +0000
+
+    Bump copyright year
+
+ alternative-toolbar.py    | 2 +-
+ alttoolbar_controller.py  | 2 +-
+ alttoolbar_plugins.py     | 2 +-
+ alttoolbar_preferences.py | 2 +-
+ alttoolbar_rb3compat.py   | 2 +-
+ alttoolbar_repeat.py      | 2 +-
+ alttoolbar_sidebar.py     | 2 +-
+ alttoolbar_type.py        | 2 +-
+ alttoolbar_widget.py      | 2 +-
+ 9 files changed, 9 insertions(+), 9 deletions(-)
+
+commit 0a96f70a75a7f6f4e624b8ad4a10b0d8e76aa1dc
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Sun Feb 11 15:10:11 2018 +0000
+
+    Update ChangeLog
+
+ ChangeLog | 169 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 169 insertions(+)
+
+commit 336f92355e3bf99f633e27051636db53fff877fe
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Sun Feb 11 15:03:36 2018 +0000
+
+    Bump version
+
+ README.md                     | 2 +-
+ alternative-toolbar.plugin.in | 4 ++--
+ configure.ac                  | 2 +-
+ 3 files changed, 4 insertions(+), 4 deletions(-)
+
+commit a5b53d8a3f6bddb116b15358ad1e5deecf881ed1
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Sun Feb 11 14:58:15 2018 +0000
+
+    Install appdata to the correct system file location
+
+ Makefile.am                                                    | 10 +++++++++-
+ ... org.gnome.Rhythmbox.Plugin.AlternativeToolbar.appdata.xml} |  6 ++++++
+ 2 files changed, 15 insertions(+), 1 deletion(-)
+
+commit e5bb7817910cad418adeddeff495521499685255
+Merge: f9275d7 ca74921
+Author: David Mohammed <fossfreedom@users.noreply.github.com>
+Date:   Sun Feb 11 13:41:16 2018 +0000
+
+    Merge pull request #117 from yotamN/master
+    
+    Added a metainfo file
+
+commit f9275d7c130e95dde40f48dc897f52a06dc8d027
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Sat Feb 10 13:56:11 2018 +0000
+
+    Add a toggle source toolbar button to headerbar to make this more discoverable
+
+ alttoolbar_type.py | 12 ++++++++++++
+ 1 file changed, 12 insertions(+)
+
+commit 429485656b4f45f7f57e60f95805db44fa26c07b
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Fri Feb 9 23:17:15 2018 +0000
+
+    Check visibility of sources before adding #112
+
+ alttoolbar_sidebar.py | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit d2bd08f62e584800543bc35fa07309e574ca7d88
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Fri Feb 9 17:03:22 2018 +0000
+
+    Change for more logical help/about symbolic icons #90
+
+ alttoolbar_plugins.py | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit ce8769585153b2e8f3853bbb723a9ecfe408b461
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Fri Feb 9 16:40:09 2018 +0000
+
+    Don't add sources that are marked as empty #112
+
+ alttoolbar_controller.py | 3 ++-
+ alttoolbar_sidebar.py    | 4 ++--
+ 2 files changed, 4 insertions(+), 3 deletions(-)
+
+commit bf96af41e9f0974a460514434fe61dc3c81a39a0
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Fri Feb 9 16:04:40 2018 +0000
+
+    Ensure headerbar titles are translated #114
+
+ alttoolbar_preferences.py | 6 ++++++
+ alttoolbar_type.py        | 4 ++--
+ 2 files changed, 8 insertions(+), 2 deletions(-)
+
+commit bea057be66672a0eab33ab75c71cdc92cd3b3a44
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Fri Feb 9 15:41:33 2018 +0000
+
+    Latest translations
+
+ po/af.po       |  71 ++++++++-----
+ po/bg.po       |  71 ++++++++-----
+ po/ca.po       |  71 ++++++++-----
+ po/cs.po       |  41 +++++---
+ po/da.po       | 305 +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/de.po       |  75 ++++++++------
+ po/el.po       |  71 ++++++++-----
+ po/en_AU.po    |  71 ++++++++-----
+ po/en_GB.po    |  75 ++++++++------
+ po/en_US.po    |  71 ++++++++-----
+ po/eo.po       |  71 ++++++++-----
+ po/es.po       |  81 +++++++++------
+ po/fi.po       |  71 ++++++++-----
+ po/fr.po       |  71 ++++++++-----
+ po/id.po       |  71 ++++++++-----
+ po/it.po       |  71 ++++++++-----
+ po/ja.po       |  75 ++++++++------
+ po/kab.po      | 289 ++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/ko.po       |  71 ++++++++-----
+ po/ms.po       |  71 ++++++++-----
+ po/pl.po       |  71 ++++++++-----
+ po/pt.po       |  71 ++++++++-----
+ po/pt_BR.po    |  71 ++++++++-----
+ po/ru.po       |  71 ++++++++-----
+ po/sk.po       | 315 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/sl.po       |  71 ++++++++-----
+ po/sr.po       |  71 ++++++++-----
+ po/sr@latin.po |  71 ++++++++-----
+ po/sv.po       |  71 ++++++++-----
+ po/th.po       |  71 ++++++++-----
+ po/uk.po       |  71 ++++++++-----
+ po/zh_CN.po    |  71 ++++++++-----
+ po/zh_TW.po    |  71 ++++++++-----
+ 33 files changed, 2225 insertions(+), 806 deletions(-)
+
+commit f320cb9548dd60869c0b874b6f158727622f8f99
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Fri Feb 9 15:25:32 2018 +0000
+
+    Add checks for invalid set_text situations - hopefully fixes a few crashes
+
+ alttoolbar_sidebar.py | 17 +++++++++++------
+ 1 file changed, 11 insertions(+), 6 deletions(-)
+
+commit ca74921bf4b967a83203afde4f86596fb95d56f3
+Author: Yotam Nachum <yotamnachum1@gmail.com>
+Date:   Thu Dec 28 16:07:40 2017 +0200
+
+    Added a metainfo tag
+
+ metainfo/.metainfo.xml | 12 ++++++++++++
+ 1 file changed, 12 insertions(+)
+
+commit e2ddd1fc06631ffc090f5ba4cb6e79aa137553ab
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Thu Oct 12 22:03:27 2017 +0000
+
+    Hide RBImportErrorsSource #112
+    Rhythmbox no longer displays an import errors source; this
+    was originally displayed when errors were detected from media
+    player imports.
+    We similarly have to hard-code this non-display of this source
+
+ alttoolbar_controller.py | 3 +--
+ alttoolbar_sidebar.py    | 2 ++
+ 2 files changed, 3 insertions(+), 2 deletions(-)
+
+commit 2b1de62aba70693e0d1a34c12ebeebbff20a4c79
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Sun Oct 1 21:03:32 2017 +0100
+
+    regen pot to get repeat strings #111
+
+ po/POTFILES.in             |  1 +
+ po/alternative-toolbar.pot | 71 ++++++++++++++++++++++++++++------------------
+ 2 files changed, 45 insertions(+), 27 deletions(-)
+
+commit f89a42f44ac202450f3349ae3823a12c507737a3
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Tue Sep 12 23:48:15 2017 +0100
+
+    add changelog
+
+ ChangeLog | 146 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 146 insertions(+)
+
+commit be100104fb062c18d00df72292763b9bb23ac756
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Wed Sep 13 21:02:03 2017 +0100
+
+    update readme.html
+
+ readme.html | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+commit 98c118656bfd882fad4a84ce31a855b7832ba022
+Merge: aee82ab 17198ea
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Wed Sep 13 21:00:02 2017 +0100
+
+    Merge branch 'master' of https://github.com/fossfreedom/alternative-toolbar
+
+commit aee82ab2d548acb54ab4207821e18d3dee1b04a5
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Wed Sep 13 20:59:40 2017 +0100
+
+    bump version
+
+ README.md                     | 2 +-
+ alternative-toolbar.plugin.in | 2 +-
+ configure.ac                  | 2 +-
+ 3 files changed, 3 insertions(+), 3 deletions(-)
+
+commit 17198eabe4edb9f038b3332e72c602958ea03c93
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Wed Sep 13 20:42:58 2017 +0100
+
+    ensure blank source names are not attempted to be translated #110
+
+ alttoolbar_sidebar.py | 14 +++++++++-----
+ 1 file changed, 9 insertions(+), 5 deletions(-)
+
+commit 3608790ed35f06f879beec045dd18b0323f0fb5e
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Sun Sep 10 09:49:54 2017 +0100
+
+    separate appmenu - hamburger now always visible #108
+
+ alttoolbar_type.py | 50 +++++++++++++++++++++++++++-----------------------
+ 1 file changed, 27 insertions(+), 23 deletions(-)
+
+commit 5dd29bc7da1b4e5baccbb96742bbea0a8c6c3b7b
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Wed Aug 30 11:00:36 2017 +0100
+
+    add missing LINGUAS and latest cs translation
+
+ po/LINGUAS |  2 ++
+ po/cs.po   | 47 +++++++++++++++++++++++++++++++----------------
+ 2 files changed, 33 insertions(+), 16 deletions(-)
+
+commit 893968f2cf3f534a61fa2053dd70d620f2abaebd
+Merge: ff92aa7 86bf583
+Author: David Mohammed <fossfreedom@users.noreply.github.com>
+Date:   Wed Aug 30 10:46:28 2017 +0100
+
+    Merge pull request #109 from AsciiWolf/patch-1
+    
+    Update LINGUAS to include the Czech translation
+
+commit 86bf58372250913620b6c9c01f8a4ce7986b244f
+Author: AsciiWolf <mail@asciiwolf.com>
+Date:   Wed Aug 30 10:46:49 2017 +0200
+
+    update LINGUAS to include the Czech translation
+
+ po/LINGUAS | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit ff92aa7cce77137831d2951790b71f37a2d202fb
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Sun Aug 27 20:45:11 2017 +0100
+
+    add new cs translations - update translation count in README
+
+ README.md |   2 +-
+ po/cs.po  | 276 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 277 insertions(+), 1 deletion(-)
+
+commit 3774e6f80ef71de9ecd6d22750c38b7a92f69b71
+Author: David Mohammed <fossfreedom@users.noreply.github.com>
+Date:   Fri Aug 11 14:13:58 2017 +0100
+
+    Update README.md
+
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 73ba978234a3221849c4ccd3f4db51076dde953e
+Author: David Mohammed <fossfreedom@users.noreply.github.com>
+Date:   Fri Aug 11 14:10:36 2017 +0100
+
+    add debian build dependencies #107
+
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit d25dc417bd02998c4972c28d0950207729a6f24e
+Merge: ac62cde 79ef729
+Author: David Mohammed <fossfreedom@users.noreply.github.com>
+Date:   Fri Aug 11 07:46:10 2017 +0100
+
+    Merge pull request #106 from fitojb/master
+    
+    Update Spanish translation
+
+commit 79ef729346db9061dade47d2110edbefbade0595
+Author: Adolfo Jayme Barrientos <fitojb@ubuntu.com>
+Date:   Thu Aug 10 23:45:18 2017 -0500
+
+    Update Spanish translation
+
+ po/es.po | 90 +++++++++++++++++++++++++++++++++-------------------------------
+ 1 file changed, 46 insertions(+), 44 deletions(-)
+
+commit ac62cde68b99cfc95e9e4b863894fc747c55096c
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Thu Aug 10 22:18:35 2017 +0100
+
+    enlarge search entry #94
+
+ alttoolbar_controller.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 2b332519b6e7316655c8179e1b2f633482ae4b83
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Thu Aug 10 21:24:50 2017 +0100
+
+    correctly handle translated titles #105
+
+ alttoolbar_type.py | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+commit 9128c3d5bad991b715a64e908e810021cb1d5c55
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Wed Aug 9 21:56:36 2017 +0100
+
+    changelog changes
+
+ ChangeLog | 340 ++++++++++++++++++++++++++++++++++++++++++++++++++++++--------
+ 1 file changed, 298 insertions(+), 42 deletions(-)
+
+commit fd78de8991e56acc3c617d948dc4e190622dc6e8
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Wed Aug 9 21:51:03 2017 +0100
+
+    minor pep8
+
+ alternative-toolbar.py | 3 ++-
+ alttoolbar_type.py     | 7 ++++---
+ 2 files changed, 6 insertions(+), 4 deletions(-)
+
+commit 1844b2c14bd99b77ef5393acd8b8563d7c952344
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Wed Aug 9 21:36:50 2017 +0100
+
+    0.17.4 label
+
+ README.md                     | 2 +-
+ alternative-toolbar.plugin.in | 4 ++--
+ configure.ac                  | 2 +-
+ readme.html                   | 2 +-
+ 4 files changed, 5 insertions(+), 5 deletions(-)
+
+commit 2973c8d54456b583d5b34d73f845f06acc01c48e
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Wed Aug 9 21:32:44 2017 +0100
+
+    remove unnecessary LICENSE from built package
+
+ Makefile.am | 4 +---
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+
+commit 36d4aaed153d57162bd71178dd503615ca3af364
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Tue Aug 8 20:19:58 2017 +0100
+
+    much larger searchbar #94
+
+ alttoolbar_controller.py | 2 ++
+ 1 file changed, 2 insertions(+)
+
+commit cc6514969db8e9147f4d6990ed364232fbfe473a
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Tue Aug 8 20:00:19 2017 +0100
+
+    permissions for ja.po
+
+ po/ja.po | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 2ca7a98aaeea96e739f2b4b2d26b6e9aee4f5ea2
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Tue Aug 8 19:59:07 2017 +0100
+
+    latest ja translation
+
+ po/ja.po | 32 ++++++++++++++++----------------
+ 1 file changed, 16 insertions(+), 16 deletions(-)
+
+commit c67a739b96986df9b5019650de02b9b00e1d9d60
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Tue Aug 8 19:29:13 2017 +0100
+
+    set category labels whenever the source changes #87
+
+ alttoolbar_type.py | 6 ++++--
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+
+commit fedb632f799356f411ff9ac654031e5a536d702c
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Tue Aug 8 18:58:48 2017 +0100
+
+    resolve breakage if XDG_CURRENT_DESKTOP is not set #102
+
+ alttoolbar_type.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit a8aafe45861ffa61bb0f78bbb70b7427dcdb4208
+Merge: 49989f4 1daae58
+Author: David Mohammed <fossfreedom@users.noreply.github.com>
+Date:   Fri Jul 14 05:39:50 2017 +0100
+
+    Merge pull request #103 from knight-corvi/master
+    
+    Add gi module before using gi.require_version
+
+commit 1daae5835723bdb83f3a51c50dec5d4c2097d80a
+Author: Joaquin Mendez <joaquin8mendez@gmail.com>
+Date:   Thu Jul 13 17:43:14 2017 -0700
+
+    Add gi module before using gi.require_version
+    
+    Rhythmbox fails to load the plugin if the gi module is not imported.
+
+ alternative-toolbar.py    | 1 +
+ alttoolbar_preferences.py | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit 49989f434522ec5ea69048fab3a8c9c7d920e1ed
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Thu Jul 13 23:56:45 2017 +0100
+
+    some cleanup
+
+ alternative-toolbar.py    | 1 +
+ alttoolbar_preferences.py | 1 +
+ alttoolbar_type.py        | 2 +-
+ 3 files changed, 3 insertions(+), 1 deletion(-)
+
+commit 0dbac7d02f4fd8b9daefeca44a0229613a6b0233
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Thu Jul 13 23:44:17 2017 +0100
+
+    update copyright year
+
+ alternative-toolbar.py    | 2 +-
+ alttoolbar_controller.py  | 2 +-
+ alttoolbar_plugins.py     | 2 +-
+ alttoolbar_preferences.py | 2 +-
+ alttoolbar_rb3compat.py   | 2 +-
+ alttoolbar_repeat.py      | 2 +-
+ alttoolbar_sidebar.py     | 2 +-
+ alttoolbar_type.py        | 2 +-
+ alttoolbar_widget.py      | 2 +-
+ 9 files changed, 9 insertions(+), 9 deletions(-)
+
+commit 574922e83343a0fffda04dc0a22c8217e7e892b6
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Wed Jul 5 16:38:01 2017 +0100
+
+    latest translations
+
+ po/af.po       |  32 ++++++++---------
+ po/bg.po       |  32 ++++++++---------
+ po/ca.po       |  32 ++++++++---------
+ po/de.po       |  32 ++++++++---------
+ po/el.po       |  32 ++++++++---------
+ po/en_AU.po    |  32 ++++++++---------
+ po/en_GB.po    |  32 ++++++++---------
+ po/en_US.po    |  32 ++++++++---------
+ po/eo.po       |  34 +++++++++---------
+ po/es.po       |  32 ++++++++---------
+ po/fi.po       |  32 ++++++++---------
+ po/fr.po       |  32 ++++++++---------
+ po/id.po       |  32 ++++++++---------
+ po/it.po       |  32 ++++++++---------
+ po/ja.po       | 106 +++++++++++++++++++++++++++++++--------------------------
+ po/ko.po       |  34 +++++++++---------
+ po/ms.po       |  32 ++++++++---------
+ po/pl.po       |  32 ++++++++---------
+ po/pt.po       |  32 ++++++++---------
+ po/pt_BR.po    |  32 ++++++++---------
+ po/ru.po       |  32 ++++++++---------
+ po/sl.po       |  32 ++++++++---------
+ po/sr.po       |  32 ++++++++---------
+ po/sr@latin.po |  32 ++++++++---------
+ po/sv.po       |  32 ++++++++---------
+ po/th.po       |  32 ++++++++---------
+ po/uk.po       |  32 ++++++++---------
+ po/zh_CN.po    |  32 ++++++++---------
+ po/zh_TW.po    |  32 ++++++++---------
+ 29 files changed, 508 insertions(+), 498 deletions(-)
+
+commit f597247e16d80457a3af37943ef0b5c969411b28
+Merge: 2e22f7e 497c0bb
+Author: David Mohammed <fossfreedom@users.noreply.github.com>
+Date:   Tue Apr 18 09:48:19 2017 +0100
+
+    Merge pull request #101 from bryant1410/master
+    
+    Fix broken headings in Markdown files
+
+commit 497c0bbf8534daf5321a88394d8aac973386da71
+Author: Santiago Castro <santi.1410@hotmail.com>
+Date:   Tue Apr 18 03:09:29 2017 -0300
+
+    Fix broken Markdown headings
+
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 2e22f7ec11e5f6be6304cee24f7b868d471118fa
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Fri Mar 10 16:32:16 2017 +0000
+
+    source toolbar should always be visible of podcasts and radio
+
+ alttoolbar_controller.py | 16 +++++++++++++++-
+ alttoolbar_type.py       |  3 +++
+ 2 files changed, 18 insertions(+), 1 deletion(-)
+
+commit d1ece552fbc331de9054c9817816f9ee507fb4f8
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Fri Mar 10 12:46:15 2017 +0000
+
+    code check for pages with no entry-view method #95
+
+ alttoolbar_type.py | 10 +++++++---
+ 1 file changed, 7 insertions(+), 3 deletions(-)
+
+commit 4c13fae703822bef072a1de76cc66f5b1e291ab8
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Fri Mar 10 12:34:32 2017 +0000
+
+    only columns need to be reorderable #86
+
+ alttoolbar_type.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit bb05abbba8de7b7ae359aef92f8b1a7c9fb60d47
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Fri Mar 10 12:18:01 2017 +0000
+
+    fix no obj error when using standard toolbars
+
+ alternative-toolbar.py | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+commit 9f4323352f3f501fe281c6ac2eefed32e915d648
+Author: David Mohammed <fossfreedom@ubuntu.com>
+Date:   Wed Mar 1 12:33:59 2017 +0000
+
+    latest launchpad translations
+
+ po/af.po       |   6 +-
+ po/bg.po       |   6 +-
+ po/ca.po       |   6 +-
+ po/de.po       |  12 +--
+ po/el.po       |   6 +-
+ po/en_AU.po    |   6 +-
+ po/en_GB.po    |   6 +-
+ po/en_US.po    |   6 +-
+ po/eo.po       |   6 +-
+ po/es.po       |   6 +-
+ po/fi.po       |   6 +-
+ po/fr.po       |  17 ++--
+ po/id.po       |   6 +-
+ po/it.po       |   6 +-
+ po/ja.po       |   6 +-
+ po/ko.po       |  16 ++--
+ po/ms.po       |   6 +-
+ po/pl.po       |   6 +-
+ po/pt.po       |   6 +-
+ po/pt_BR.po    |   6 +-
+ po/ru.po       |   6 +-
+ po/sl.po       |   6 +-
+ po/sr.po       | 290 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/sr@latin.po | 290 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ po/sv.po       |   9 +-
+ po/th.po       |   6 +-
+ po/uk.po       |   6 +-
+ po/zh_CN.po    |   6 +-
+ po/zh_TW.po    |   6 +-
+ 29 files changed, 675 insertions(+), 97 deletions(-)
+
+commit 9089bda44fbb5936e4251bf97710d79e2ae43eff
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Sat Nov 5 20:59:41 2016 +0000
+
+    update ChangeLog
+
+ ChangeLog | 30 ++++++++++++++++++++++++++++++
+ 1 file changed, 30 insertions(+)
+
+commit bc804c9012a4ed33e91df2533842687fc0dd7d84
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Sat Nov 5 20:55:56 2016 +0000
+
+    v0.17.3 updates
+
+ README.md                     | 2 +-
+ alternative-toolbar.plugin.in | 2 +-
+ configure.ac                  | 2 +-
+ readme.html                   | 2 +-
+ 4 files changed, 4 insertions(+), 4 deletions(-)
+
+commit f40a5d2bfd2e7c8a623f64dd8e886feebe540ba1
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Mon Sep 26 07:39:08 2016 +0100
+
+    latest zh_CN translation
+
+ po/zh_CN.po | 116 +++++++++++++++++++++++++++++++-----------------------------
+ 1 file changed, 59 insertions(+), 57 deletions(-)
+
+commit 3fe2958a75bd0ce8f9e3fe3422de191541ab204e
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Sun Aug 28 16:39:40 2016 +0100
+
+    add v0.17.2 changelog
+
+ ChangeLog | 449 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ 1 file changed, 444 insertions(+), 5 deletions(-)
+
+commit afe807c46459e85449ba421310a4378c93417764
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Sun Aug 28 16:30:14 2016 +0100
+
+    email address change
+
+ README.md                     | 2 +-
+ alternative-toolbar.plugin.in | 2 +-
+ configure.ac                  | 2 +-
+ readme.html                   | 2 +-
+ 4 files changed, 4 insertions(+), 4 deletions(-)
+
+commit 366c098cb7c9ce92ca3783a1bc091d063d8ca28c
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Sun Aug 28 16:24:37 2016 +0100
+
+    0.17.2 version info
+
+ README.md                     | 2 +-
+ alternative-toolbar.plugin.in | 2 +-
+ readme.html                   | 2 +-
+ 3 files changed, 3 insertions(+), 3 deletions(-)
+
+commit dcb58981255c834d7c9f6d62f72f8976d951b8a6
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Sun Aug 28 16:23:43 2016 +0100
+
+    add new pl translation
+
+ po/LINGUAS |   1 +
+ po/pl.po   | 293 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 294 insertions(+)
+
+commit 9810cc687d1ae5f78c48d82a958285eb82feddfc
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Sun Aug 28 15:56:26 2016 +0100
+
+    use GTK equiv method to workaround #97
+
+ alttoolbar_rb3compat.py | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+
+commit c5b9af472860274a041b6aeba05866e1aa54777a
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Wed May 18 23:04:09 2016 +0100
+
+    update html readme
+
+ readme.html | 8 ++++++--
+ 1 file changed, 6 insertions(+), 2 deletions(-)
+
+commit 4902d4539e2b5ba16f9c3bae7c20c2a5e1e5f5e9
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Wed May 18 22:22:20 2016 +0100
+
+    update Changelog for V0.17.1
+
+ ChangeLog | 235 ++++++++++++++------------------------------------------------
+ 1 file changed, 53 insertions(+), 182 deletions(-)
+
+commit 4de2cd39cfd91984b42a2d21af808578872c9ba9
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Mon May 16 00:04:59 2016 +0100
+
+    py checks cleanup
+
+ alttoolbar_rb3compat.py |  5 ++---
+ alttoolbar_type.py      | 14 +++++++-------
+ 2 files changed, 9 insertions(+), 10 deletions(-)
+
+commit 7c23c4d98f057b0e440b62fef85e355eeb27de35
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Sun May 15 23:03:56 2016 +0100
+
+    release
+
+ README.md   |  2 +-
+ po/af.po    | 44 ++++++++++++++++++++-----------------
+ po/bg.po    | 44 ++++++++++++++++++++-----------------
+ po/ca.po    | 46 ++++++++++++++++++++------------------
+ po/de.po    | 44 ++++++++++++++++++++-----------------
+ po/el.po    | 44 ++++++++++++++++++++-----------------
+ po/en_AU.po | 48 +++++++++++++++++++++-------------------
+ po/en_GB.po | 46 ++++++++++++++++++++------------------
+ po/en_US.po | 46 ++++++++++++++++++++------------------
+ po/eo.po    | 44 ++++++++++++++++++++-----------------
+ po/es.po    | 46 ++++++++++++++++++++------------------
+ po/fi.po    | 46 ++++++++++++++++++++------------------
+ po/fr.po    | 44 ++++++++++++++++++++-----------------
+ po/id.po    | 44 ++++++++++++++++++++-----------------
+ po/it.po    | 50 +++++++++++++++++++++++-------------------
+ po/ja.po    | 46 ++++++++++++++++++++------------------
+ po/ko.po    | 44 ++++++++++++++++++++-----------------
+ po/ms.po    | 44 ++++++++++++++++++++-----------------
+ po/pt.po    | 46 ++++++++++++++++++++------------------
+ po/pt_BR.po | 73 ++++++++++++++++++++++++++++++++++---------------------------
+ po/ru.po    | 44 ++++++++++++++++++++-----------------
+ po/sl.po    | 44 ++++++++++++++++++++-----------------
+ po/sv.po    | 44 ++++++++++++++++++++-----------------
+ po/th.po    | 44 ++++++++++++++++++++-----------------
+ po/uk.po    | 44 ++++++++++++++++++++-----------------
+ po/zh_CN.po | 44 ++++++++++++++++++++-----------------
+ po/zh_TW.po | 44 ++++++++++++++++++++-----------------
+ 27 files changed, 654 insertions(+), 545 deletions(-)
+
+commit e70674bc3d6e0b5952f27b8a54056824d5a2d25b
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Thu May 12 19:36:24 2016 +0100
+
+    translation generation with compilation version bump
+
+ alternative-toolbar.plugin.in |   2 +-
+ configure.ac                  |   2 +-
+ po/alternative-toolbar.pot    | 272 ++++++++++++++++++++++++++++++++++++++++++
+ 3 files changed, 274 insertions(+), 2 deletions(-)
+
+commit b58299141889426c354894711c7c251c8d847896
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Thu May 12 19:29:09 2016 +0100
+
+    refactor and bump version to release-candidate
+
+ README.md               | 3 ++-
+ alternative-toolbar.py  | 2 +-
+ alttoolbar_rb3compat.py | 1 +
+ alttoolbar_type.py      | 6 +++---
+ 4 files changed, 7 insertions(+), 5 deletions(-)
+
+commit a6c230f3e8f8b5e38aa7903c98a34f825500dac3
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Thu May 12 19:25:13 2016 +0100
+
+    correctly display app-menu where the environment says it is a GNOME based environment
+
+ alttoolbar_type.py | 8 ++++++--
+ 1 file changed, 6 insertions(+), 2 deletions(-)
+
+commit 4e76c494fa20697034fbf058879818f8be463a79
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Thu May 12 18:43:26 2016 +0100
+
+    add dark-theme option - issue #84
+
+ alternative-toolbar.py                                |  1 +
+ alttoolbar_preferences.py                             |  9 ++++++++-
+ alttoolbar_type.py                                    |  5 +++++
+ ....rhythmbox.plugins.alternative_toolbar.gschema.xml |  6 ++++++
+ ui/altpreferences.ui                                  | 19 +++++++++++++++++--
+ 5 files changed, 37 insertions(+), 3 deletions(-)
+
+commit b43ac4a8b170d686674fc88e5b2d94b5bcef2073
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Thu Mar 17 21:36:44 2016 +0000
+
+    not all views have a propertyview which causes an error
+
+ alttoolbar_type.py | 3 +++
+ 1 file changed, 3 insertions(+)
+
+commit 06abee5a518871db93168bb1435590fe0b69f72e
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Thu Feb 18 19:53:37 2016 +0000
+
+    latest translations id de
+
+ po/de.po | 34 +++++++++++++++++-----------------
+ po/id.po | 34 +++++++++++++++++-----------------
+ 2 files changed, 34 insertions(+), 34 deletions(-)
+
+commit 02c6b78279d24f1dd71c3d228d731a7400f9ec96
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Sat Feb 13 23:41:13 2016 +0000
+
+    latest sv translation
+
+ README.md  |   2 +-
+ po/LINGUAS |   1 +
+ po/sv.po   | 269 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 3 files changed, 271 insertions(+), 1 deletion(-)
+
+commit 6398683e2eb2bba0fb38fc10964d586e257ba320
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Sat Feb 13 23:36:09 2016 +0000
+
+    add option to force display the app-menu - issue #81
+
+ README.md                                                          | 3 +++
+ alternative-toolbar.py                                             | 2 ++
+ alttoolbar_preferences.py                                          | 3 ++-
+ alttoolbar_type.py                                                 | 4 ++--
+ schema/org.gnome.rhythmbox.plugins.alternative_toolbar.gschema.xml | 7 +++++++
+ 5 files changed, 16 insertions(+), 3 deletions(-)
+
+commit 99f9e35c715b2b5c686dce3560ede21e7eebd410
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Sat Feb 13 23:05:12 2016 +0000
+
+    latest translations and various cleanups
+
+ README.md                 |   6 +-
+ alternative-toolbar.py    |   2 +-
+ alttoolbar_controller.py  |   2 +-
+ alttoolbar_plugins.py     |   2 +-
+ alttoolbar_preferences.py |  14 +-
+ alttoolbar_rb3compat.py   |   3 +-
+ alttoolbar_repeat.py      |   2 +-
+ alttoolbar_sidebar.py     |   2 +-
+ alttoolbar_type.py        |  42 +++---
+ alttoolbar_widget.py      |   2 +-
+ po/LINGUAS                |   1 +
+ po/af.po                  | 314 +++++++++++++++++++-----------------------
+ po/bg.po                  | 318 ++++++++++++++++++++----------------------
+ po/ca.po                  | 320 ++++++++++++++++++++-----------------------
+ po/de.po                  | 319 ++++++++++++++++++++----------------------
+ po/el.po                  | 322 ++++++++++++++++++++-----------------------
+ po/en_AU.po               | 288 ++++++++++++++++++++++++++++++++++++++
+ po/en_GB.po               | 319 ++++++++++++++++++++----------------------
+ po/en_US.po               | 319 ++++++++++++++++++++----------------------
+ po/eo.po                  | 314 +++++++++++++++++++-----------------------
+ po/es.po                  | 321 ++++++++++++++++++++-----------------------
+ po/fi.po                  | 316 +++++++++++++++++++-----------------------
+ po/fr.po                  | 325 ++++++++++++++++++++-----------------------
+ po/id.po                  | 319 ++++++++++++++++++++----------------------
+ po/it.po                  | 324 ++++++++++++++++++++-----------------------
+ po/ja.po                  | 314 +++++++++++++++++++-----------------------
+ po/ko.po                  | 342 +++++++++++++++++++++-------------------------
+ po/ms.po                  | 320 ++++++++++++++++++++-----------------------
+ po/pt.po                  | 325 ++++++++++++++++++++-----------------------
+ po/pt_BR.po               | 321 ++++++++++++++++++++-----------------------
+ po/ru.po                  | 318 ++++++++++++++++++++----------------------
+ po/sl.po                  | 318 ++++++++++++++++++++----------------------
+ po/th.po                  | 317 ++++++++++++++++++++----------------------
+ po/tr.po                  | 321 ++++++++++++++++++++-----------------------
+ po/uk.po                  | 321 ++++++++++++++++++++-----------------------
+ po/zh_CN.po               | 314 +++++++++++++++++++-----------------------
+ po/zh_TW.po               | 332 ++++++++++++++++++++------------------------
+ readme.html               |   6 +-
+ 38 files changed, 3989 insertions(+), 4396 deletions(-)
+
+commit e9a4563aef02e02212ea99d1f88aada4a091900d
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Thu Feb 11 19:55:21 2016 +0000
+
+    remember search text when using headerbars - issue #75
+
+ alttoolbar_type.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit cbd8ba2c20d611d53c4e0d7d92f90a485c0a774c
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Sun Feb 7 23:33:30 2016 +0000
+
+    temporarily backout column size changing code - issue #79
+
+ alttoolbar_type.py | 21 +++++++++------------
+ 1 file changed, 9 insertions(+), 12 deletions(-)
+
+commit 87766c001067a5ca4286eae73f081b7229e40bdc
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Sun Feb 7 23:15:40 2016 +0000
+
+    readd missing schema file - issue  #76
+
+ ...ythmbox.plugins.alternative_toolbar.gschema.xml | 76 ++++++++++++++++++++++
+ 1 file changed, 76 insertions(+)
+
+commit ee1ece23157e6e4b746515fdb45422e82ca414dc
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Sun Feb 7 22:37:51 2016 +0000
+
+    add new category display option - issue #76
+
+ README.md                                          |  1 +
+ alternative-toolbar.py                             |  3 +
+ alttoolbar_preferences.py                          | 24 ++++++-
+ alttoolbar_type.py                                 | 36 ++++++++++
+ ...ythmbox.plugins.alternative_toolbar.gschema.xml | 71 --------------------
+ ui/altpreferences.ui                               | 77 ++++++++++++++++++++--
+ 6 files changed, 136 insertions(+), 76 deletions(-)
+
+commit 19c45665d90844e617a8bbb420f8d02154e1ee33
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Mon Jan 25 21:49:29 2016 +0000
+
+    toggle search button using CTRL+F - issue #77
+
+ alttoolbar_type.py | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+commit 36260f8039dc45f845b75fc51792f1e250ee4791
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Sat Jan 23 20:01:58 2016 +0000
+
+    remember the column width - issue #74
+
+ README.md                     |  3 ++-
+ alternative-toolbar.plugin.in |  2 +-
+ alttoolbar_type.py            | 61 +++++++++++++++++++++++++++++++++++--------
+ configure.ac                  |  2 +-
+ 4 files changed, 54 insertions(+), 14 deletions(-)
+
+commit 62ce5d1e23660648bdd2921083bd5fbe5b2483e1
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Sun Jan 17 10:20:05 2016 +0000
+
+    generate a changelog for 0.16.3
+
+ ChangeLog | 381 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 381 insertions(+)
+
+commit 5f2ba9721c9bc95c8a2e47a6c121b74e687ebcf4
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Sun Jan 17 10:16:36 2016 +0000
+
+    ready new version 0.16.3
+
+ GENERAL      | 25 ++++++++++++++++----
+ README.md    |  2 +-
+ configure.ac |  2 +-
+ readme.html  | 77 +++++++++++++++++++++++++++++++++++++-----------------------
+ 4 files changed, 71 insertions(+), 35 deletions(-)
+
+commit 74e89aa2ed78088d5535049b4feab6deed0c0a29
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Sun Jan 17 09:55:02 2016 +0000
+
+    more cleanup before packaging
+
+ alternative-toolbar.py    |  19 +++++----
+ alttoolbar_controller.py  |   2 +-
+ alttoolbar_plugins.py     |   8 ++--
+ alttoolbar_preferences.py |  15 +++----
+ alttoolbar_rb3compat.py   |   8 ++--
+ alttoolbar_repeat.py      |   8 ++--
+ alttoolbar_sidebar.py     |  41 +++++++++----------
+ alttoolbar_type.py        | 102 +++++++++++++++++++++++-----------------------
+ alttoolbar_widget.py      |   4 +-
+ 9 files changed, 103 insertions(+), 104 deletions(-)
+
+commit 83414508bf13834fc581a30a140c04ab1a2b5d55
+Merge: a8cf325 f2440cd
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Sun Jan 17 09:38:44 2016 +0000
+
+    Merge branch 'master' of https://github.com/fossfreedom/alternative-toolbar
+
+commit a8cf325aa7b7dd233d18822710e4820ad8db8cc4
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Sun Jan 17 09:38:14 2016 +0000
+
+    some cleanup before packaging
+
+ GENERAL                | 16 ++++++++++++++++
+ alternative-toolbar.py |  2 --
+ 2 files changed, 16 insertions(+), 2 deletions(-)
+
+commit f2440cd2a7fdc63d5993abd26db8d1f681d9efdc
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Mon Jan 11 19:35:44 2016 +0000
+
+    try an alternative way to save column changes to cope with different ways to close - issue #73
+
+ alternative-toolbar.py |  6 ------
+ alttoolbar_type.py     | 39 +++++++++++++++++++++++++++++++--------
+ 2 files changed, 31 insertions(+), 14 deletions(-)
+
+commit b7ca77f7c6905a1fe60720c979b6c49690416b27
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Sat Jan 9 22:45:02 2016 +0000
+
+    add method to get the current toolbar together with a Gtk.Box where new UI elements can be added
+
+ README.md                     |  2 +-
+ alternative-toolbar.plugin.in |  4 ++--
+ alternative-toolbar.py        | 10 ++++++++++
+ alttoolbar_type.py            | 34 ++++++++++++++++++++++++++++++++--
+ configure.ac                  |  2 +-
+ 5 files changed, 46 insertions(+), 6 deletions(-)
+
+commit 22b471263ac7043c6eafb6ea041e590d7cd7d0d3
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Thu Jan 7 20:41:55 2016 +0000
+
+    ensure Missing and ImportErrors appear correctly in the tree - issue #59
+
+ alttoolbar_controller.py | 11 ++++++++---
+ alttoolbar_sidebar.py    | 32 ++++++++++++++++++--------------
+ 2 files changed, 26 insertions(+), 17 deletions(-)
+
+commit a144eb0bdc8ed5472098e54ab2ca4601a0105d53
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Tue Jan 5 19:49:34 2016 +0000
+
+    minor version update and description change
+
+ README.md                     | 2 +-
+ alternative-toolbar.plugin.in | 6 +++---
+ configure.ac                  | 2 +-
+ 3 files changed, 5 insertions(+), 5 deletions(-)
+
+commit 4487d3fdd386dd9619ae2b94dd02568c1c313b79
+Merge: 06245b1 159de9a
+Author: David Mohammed <fossfreedom@users.noreply.github.com>
+Date:   Tue Jan 5 06:55:07 2016 +0000
+
+    Merge pull request #70 from gipawu/master
+    
+    Enable slider function
+
+commit 159de9a0b717025fe09dd3ff3bb2b13f74cd5479
+Author: gipawu <gipawu@gmail.com>
+Date:   Tue Jan 5 01:21:47 2016 +0100
+
+    readme note
+
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit f5461e491cc799ce577bce6657e2dd3858779b49
+Author: gipawu <gipawu@gmail.com>
+Date:   Tue Jan 5 01:17:57 2016 +0100
+
+    enable_slider rework - part 3
+
+ alternative-toolbar.py | 16 ++++++++--------
+ 1 file changed, 8 insertions(+), 8 deletions(-)
+
+commit 15d3821bb7ac507781280e6b87ca556d20a2777d
+Author: gipawu <gipawu@gmail.com>
+Date:   Tue Jan 5 01:13:55 2016 +0100
+
+    enable_slider rework - part 1
+
+ alttoolbar_type.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 431f99dc36ad8bc15482e8c631cf623953e5e12f
+Author: gipawu <gipawu@gmail.com>
+Date:   Tue Jan 5 01:12:26 2016 +0100
+
+    enable_slider rework - part 1
+
+ alttoolbar_type.py | 2 ++
+ 1 file changed, 2 insertions(+)
+
+commit 68abfc5fe478f8a1e90753fc22be1a2da72ab543
+Author: gipawu <gipawu@gmail.com>
+Date:   Tue Jan 5 00:20:54 2016 +0100
+
+    disable slider on track stop
+
+ alternative-toolbar.py | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit a8183379454d5e7358d57bddabfb4c1797474ecc
+Author: gipawu <gipawu@gmail.com>
+Date:   Mon Jan 4 18:23:29 2016 +0100
+
+    enable_slider function
+
+ alttoolbar_type.py | 10 ++++++++++
+ 1 file changed, 10 insertions(+)
+
+commit a298c125c97acd6bac9d478f7ca223cd40b2dd97
+Author: gipawu <gipawu@gmail.com>
+Date:   Mon Jan 4 18:20:24 2016 +0100
+
+    Enable or disable slider depending on duration existance
+
+ alternative-toolbar.py | 9 +++++++--
+ 1 file changed, 7 insertions(+), 2 deletions(-)
+
+commit 06245b1a890ddfb76ac7f5df3b09d05ee1cc4d10
+Author: David Mohammed <fossfreedom@users.noreply.github.com>
+Date:   Tue Dec 29 16:53:45 2015 +0000
+
+    obvious typos #68
+
+ README.md | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 25d083a9f47f8f4350fc1a5456419a1669caf0a7
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Mon Dec 28 14:28:59 2015 +0000
+
+    add ChangeLog handling
+
+ GENERAL     |  6 ++++++
+ Makefile.am | 19 +++++++++++++++++++
+ 2 files changed, 25 insertions(+)
+
+commit e69ed2b9a46c8a1cf3637500619a4c08d2bea309
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Mon Dec 28 10:52:05 2015 +0000
+
+    add column repositioning capability via drag-and-drop - issue #67
+
+ README.md                     |  60 ++++++++-----
+ alternative-toolbar.plugin.in |   2 +-
+ alternative-toolbar.py        |   9 ++
+ alttoolbar_type.py            | 204 ++++++++++++++++++++++++++++++++++++++++++
+ configure.ac                  |   3 +-
+ 5 files changed, 255 insertions(+), 23 deletions(-)
+
+commit dbfaf5ba343dff9da3ac4eeed1d6baedcd50e6dc
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Sun Dec 20 00:16:01 2015 +0000
+
+    translation display fixes - issue #64
+
+ alttoolbar_sidebar.py |  9 ++++++++-
+ alttoolbar_type.py    | 22 +++++++++++++++++++++-
+ 2 files changed, 29 insertions(+), 2 deletions(-)
+
+commit 1427c622b57d3a27bc930062e88161158a95be52
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Sat Dec 19 20:47:52 2015 +0000
+
+    v15.0 updates for stable release
+
+ Makefile.am                   |  8 ++++++--
+ alternative-toolbar.plugin.in |  2 +-
+ readme.html                   | 33 +++++++++++++++++++++++++++------
+ 3 files changed, 34 insertions(+), 9 deletions(-)
+
+commit 20b26ecc8cc5e9218598c08551945c4e8f4b8ca2
+Author: David Mohammed <fossfreedom@users.noreply.github.com>
+Date:   Sat Dec 19 15:16:21 2015 +0000
+
+    https://github.com/ikeydoherty
+
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 5363166526b9757ee425598acab33c7b80c597df
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Sat Dec 19 10:59:02 2015 +0000
+
+    uninstallation of local and a note about DISTRO_PACKAGING (#63)
+
+ DISTRO_PACKAGING | 14 ++++++++++++++
+ README.md        |  9 ++++++++-
+ 2 files changed, 22 insertions(+), 1 deletion(-)
+
+commit e9937f7e08403fe02c353b917502ac1c35304d89
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Sat Dec 19 10:43:09 2015 +0000
+
+    corrected installation instructions for new autotools method
+
+ README.md | 7 +++++--
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+
+commit 005cafaf24c13bb7e490921c8bd23cc8677a4f0e
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Sat Dec 19 10:37:14 2015 +0000
+
+    rework #63 to keep rhythmbox convention of ui files, build translation files, update version, revised gitignore
+
+ .gitignore                                     |   1 +
+ Makefile.am                                    |  11 +-
+ README.md                                      |   2 +-
+ TRANSLATE_README                               |  37 +---
+ alttoolbar_preferences.py                      |   2 +-
+ alttoolbar_type.py                             |   4 +-
+ configure.ac                                   |   2 +-
+ po/POTFILES.in                                 |   5 +-
+ po/alternative-toolbar.pot                     | 295 -------------------------
+ ui/{altlibrary.glade => altlibrary.ui}         |   0
+ ui/{altpreferences.glade => altpreferences.ui} |   0
+ ui/{alttoolbar.glade => alttoolbar.ui}         |   0
+ 12 files changed, 20 insertions(+), 339 deletions(-)
+
+commit c8ca45cf99f923c0e6daf1a332e74f1b93bde75e
+Merge: e49a9c1 371942f
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Fri Dec 18 20:08:00 2015 +0000
+
+    Merge branch 'ikeydoherty-autotools'
+
+commit 371942f1fb6d8f6802fbec32d9a1ef098eb302a1
+Author: Ikey Doherty <ikey@solus-project.com>
+Date:   Fri Dec 18 17:43:44 2015 +0000
+
+    Add a proper autotools build system
+    
+    Signed-off-by: Ikey Doherty <ikey@solus-project.com>
+
+ .gitignore                                      | 18 ++++++
+ Makefile                                        | 24 --------
+ Makefile.am                                     | 77 ++++++++++++++++++++++++
+ alternative-toolbar.plugin                      | 48 ---------------
+ alttoolbar_preferences.py                       |  2 +-
+ alttoolbar_type.py                              |  4 +-
+ autogen.sh                                      | 24 ++++++++
+ configure.ac                                    | 42 +++++++++++++
+ install.sh                                      | 80 -------------------------
+ m4/python-gi.m4                                 | 12 ++++
+ po/LINGUAS                                      | 25 ++++++++
+ po/POTFILES.in                                  |  6 ++
+ po/{py_files_to_be_translated => POTFILES.skip} |  0
+ po/create_all_po.sh                             |  8 ---
+ po/files_to_be_translated                       |  3 -
+ po/install_all.sh                               |  8 ---
+ po/lang.sh                                      | 15 -----
+ po/update_all_po.sh                             | 11 ----
+ ui/{altlibrary.ui => altlibrary.glade}          |  0
+ ui/{altpreferences.ui => altpreferences.glade}  |  0
+ ui/{alttoolbar.ui => alttoolbar.glade}          |  0
+ 21 files changed, 207 insertions(+), 200 deletions(-)
+
+commit e49a9c12130ff66949374b3880c6dd8df77f1de4
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Tue Nov 10 21:57:44 2015 +0000
+
+    latest ja translation
+
+ po/ja.po | 296 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 296 insertions(+)
+
+commit 8521d866e7e5fb1d5cb39abb3d36e51952cf16f6
+Author: fossfreedom <fossfreedom@gmail.com>
+Date:   Fri Nov 6 16:55:19 2015 +0000
+
+    revise gentoo instructions
+
+ README.md | 14 ++++++++++++--
+ 1 file changed, 12 insertions(+), 2 deletions(-)
+
+commit 54155f425c4c1c04bebb83df84bab2531ddabf7b
+Author: fossfreedom <fossfreedom@gmail.com>
+Date:   Fri Nov 6 16:47:34 2015 +0000
+
+    prepare for split
+
+ debian/changelog                                   |  6 ----
+ debian/compat                                      |  1 -
+ debian/control                                     | 13 --------
+ debian/copyright                                   | 24 ---------------
+ debian/rules                                       |  3 --
+ debian/source/format                               |  1 -
+ debian/watch                                       |  3 --
+ debian_cleanup.sh                                  |  9 ------
+ .../alternative-toolbar-9999.ebuild                | 35 ----------------------
+ 9 files changed, 95 deletions(-)
+
+commit 1293bcdadbcf8921289b0d2d96e77ca201df5935
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Thu Nov 5 21:55:22 2015 +0000
+
+    general pep8 cleanups together with debian packaging recommendations
+
+ GENERAL                       |   9 ++
+ README.md                     |   2 +-
+ alternative-toolbar.plugin    |   2 +-
+ alternative-toolbar.plugin.in |   2 +-
+ alternative-toolbar.py        | 198 ++++++++++++++---------
+ alttoolbar_controller.py      |  82 ++++++----
+ alttoolbar_plugins.py         |  28 ++--
+ alttoolbar_preferences.py     |  58 ++++---
+ alttoolbar_rb3compat.py       | 140 +++++++++-------
+ alttoolbar_repeat.py          | 117 ++++++++------
+ alttoolbar_sidebar.py         | 189 ++++++++++++----------
+ alttoolbar_type.py            | 362 ++++++++++++++++++++++++++----------------
+ alttoolbar_widget.py          |  31 ++--
+ debian/changelog              | 188 +---------------------
+ debian/control                |   2 +-
+ debian/docs                   |   0
+ debian_cleanup.sh             |   9 ++
+ readme.html                   | 178 +++++++++++++++++++++
+ 18 files changed, 915 insertions(+), 682 deletions(-)
+
+commit d0022bb6310a8edaac576a89379d5c94e0dedeca
+Author: fossfreedom <foss.freedom@gmail.com>
+Date:   Wed Nov 4 23:33:17 2015 +0000
+
+    fix various debian lintian errors
+
+ debian/changelog | 8 +-------
+ debian/compat    | 2 +-
+ debian/control   | 2 +-
+ debian/copyright | 2 +-
+ debian/watch     | 3 +++
+ 5 files changed, 7 insertions(+), 10 deletions(-)
